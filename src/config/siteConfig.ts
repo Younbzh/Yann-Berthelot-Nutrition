@@ -1,322 +1,353 @@
 export const siteConfig = {
   // IDENTITÉ
-  barName: "Dartrad",
-  fullName: "Dartrad Pontivy",
-  tagline: "Bar à Fléchettes",
-  slogan: "Où la tradition rencontre la performance",
-  city: "Pontivy",
-  region: "Morbihan, Bretagne",
+  storeName: "Maison Exotique",
+  slogan: "Mariziki Nema Na Baraka",
+  sloganTranslation: "(Swahili : Avec amour et bénédiction)",
+  tagline: "Épicerie du Monde",
+  city: "Loudéac",
+  region: "Côtes-d'Armor, Bretagne",
   
   // HERO
   hero: {
-    title: "Dartrad",
-    subtitle: "Bar à Fléchettes • Pontivy",
-    tagline: "Dart + Trad = Passion des fléchettes",
-    description: "Le premier bar à fléchettes de Pontivy créé par Thibault Tricole, n°1 français et 61e mondial. Un lieu convivial pour découvrir, pratiquer et vibrer autour des fléchettes traditionnelles.",
-    opening: "Ouverture : Vendredi 6 février 2026",
-    inauguration: "Inauguration officielle : Fin mars 2026",
-    cta: "Venez nous découvrir"
+    title: "Maison Exotique",
+    subtitle: "Votre épicerie du monde à Loudéac",
+    slogan: "Mariziki Nema Na Baraka",
+    description: "Découvrez les saveurs du monde entier dans notre épicerie à Loudéac. Des produits d'Afrique, des Antilles, du Brésil, d'Asie et bien plus encore. Fruits, légumes, surgelés, conserves, épices... tout pour voyager à travers vos assiettes !",
+    opening: "Ouvert depuis octobre 2025",
+    cta: "Découvrez nos produits"
   },
 
-  // THIBAULT TRICOLE
-  founder: {
-    name: "Thibault Tricole",
-    nickname: "The French Touch",
-    title: "Fondateur & N°1 Français",
-    age: 36,
-    birthplace: "Auray, Morbihan",
-    currentRanking: "61e mondial PDC",
-    frenchRanking: "N°1 Français",
-    bio: "Thibault Tricole est le meilleur joueur français de fléchettes et une figure incontournable de la scène internationale. Premier français à remporter un match au Championnat du monde PDC, il a à cœur de démocratiser les fléchettes en France.",
-    achievements: [
-      "61e mondial au classement PDC",
-      "N°1 français de fléchettes",
-      "1er français à gagner un match au Mondial PDC",
-      "Finaliste Championnat du monde WDF 2022",
-      "Vainqueur de l'Open du Danemark 2021",
-      "Triple champion de France",
-      "Président du Bleiz Darts Club"
-    ],
-    career: "Joueur professionnel depuis plus de 20 ans, Thibault a représenté la France dans les plus grandes compétitions mondiales. Son objectif : faire rayonner les fléchettes françaises au plus haut niveau.",
-    music: "Musique d'entrée : Essentielles - Ibrahim Maalouf"
+  // GÉRANTE
+  manager: {
+    name: "Moinecha Oiziri",
+    age: 42,
+    title: "Gérante",
+    experience: "Anciennement sur les marchés autour de Rennes",
+    story: "Après avoir sillonné les marchés de la région rennaise, Moinecha a décidé d'ouvrir une boutique fixe à Loudéac. Beaucoup de clients venaient de Loudéac mais n'avaient pas toujours les moyens de transport pour se déplacer. C'est ainsi qu'est née la Maison Exotique !",
+    passion: "Faire découvrir les saveurs du monde et rendre accessible des produits parfois difficiles à trouver."
   },
 
-  // MARIE BOUFFAUT
-  coFounder: {
-    name: "Marie Bouffaut",
-    title: "Co-fondatrice",
-    experience: "14 ans d'expérience dans la gestion du Ty Lou à Malguénac",
-    role: "Marie apporte toute son expertise en gestion de bar et crée l'ambiance chaleureuse du Dartrad.",
-    passion: "Passionnée de fléchettes, elle est le pilier de l'organisation et veille à ce que chacun se sente bien au Dartrad."
-  },
-
-  // LE CONCEPT
+  // CONCEPT
   concept: {
-    title: "Le Concept Dartrad",
-    subtitle: "Un bar unique dédié aux fléchettes",
-    mission: "Démocratiser les fléchettes et créer un lieu convivial où débutants et confirmés peuvent pratiquer, s'améliorer et partager leur passion.",
-    vision: "Faire du Dartrad LE lieu incontournable des amateurs de fléchettes en Bretagne.",
-    name: "Dartrad = Dart (fléchette en anglais) + Trad (pour traditionnelle)",
-    atmosphere: "Ambiance conviviale et passionnée, dans un cadre moderne avec un esprit traditionnel. Ici, tout le monde est bienvenu, du curieux au compétiteur."
+    title: "Notre Concept",
+    subtitle: "Les saveurs du monde à Loudéac",
+    mission: "Proposer des produits exotiques de qualité, introuvables ailleurs dans la région, pour permettre à chacun de cuisiner les plats de son pays ou de découvrir de nouvelles saveurs.",
+    engagement: "Certains produits, nous allons les chercher nous-même une fois par semaine à Paris pour garantir leur fraîcheur et leur authenticité.",
+    atmosphere: "Une ambiance chaleureuse et familiale où chacun est accueilli avec le sourire. Nous prenons le temps de conseiller nos clients et de partager nos connaissances."
   },
 
-  // CE QU'ON PROPOSE
-  offers: {
-    title: "Ce qu'on propose",
+  // ORIGINES DES PRODUITS
+  origins: {
+    title: "D'où viennent nos produits ?",
+    subtitle: "Un tour du monde sans quitter Loudéac",
+    regions: [
+      {
+        icon: "🌍",
+        name: "Côte d'Ivoire",
+        description: "Attiéké, igname, bananes plantain, manioc, épices..."
+      },
+      {
+        icon: "🏝️",
+        name: "La Réunion",
+        description: "Épices créoles, achards, rougail, rhum arrangé..."
+      },
+      {
+        icon: "🇧🇷",
+        name: "Brésil",
+        description: "Produits brésiliens authentiques"
+      },
+      {
+        icon: "🥢",
+        name: "Asie",
+        description: "Nouilles, sauces, épices asiatiques, produits frais..."
+      },
+      {
+        icon: "🌴",
+        name: "Antilles",
+        description: "Produits des îles, fruits exotiques, spécialités créoles..."
+      },
+      {
+        icon: "🌍",
+        name: "Afrique",
+        description: "Sénégal, Mali, Cameroun, Congo... Produits typiques de chaque pays"
+      }
+    ]
+  },
+
+  // GAMME DE PRODUITS
+  products: {
+    title: "Nos Produits",
+    subtitle: "Du sucré au salé, tout pour cuisiner le monde",
     categories: [
       {
-        icon: "🎯",
-        title: "Jeu libre",
-        description: "Venez jouer aux fléchettes dans une ambiance décontractée",
-        details: [
-          "Cibles professionnelles",
-          "Fléchettes fournies",
-          "Conseils des pros",
-          "Tarifs accessibles"
+        icon: "🥩",
+        title: "Viandes & Poissons",
+        description: "Viandes fumées, séchées, surgelées",
+        items: [
+          "Poissons africains (tilapia, capitaine...)",
+          "Viandes fumées",
+          "Poulet, bœuf, mouton halal",
+          "Produits de la mer surgelés"
         ]
       },
       {
-        icon: "🏆",
-        title: "Compétitions",
-        description: "Participez à nos tournois réguliers",
-        details: [
-          "Tournois hebdomadaires",
-          "Niveaux débutant à expert",
-          "Prizes et récompenses",
-          "Classements officiels"
+        icon: "🥕",
+        title: "Fruits & Légumes",
+        description: "Frais et exotiques",
+        items: [
+          "Bananes plantain",
+          "Igname, manioc, patates douces",
+          "Gombo, feuilles de manioc",
+          "Fruits exotiques de saison"
         ]
       },
       {
-        icon: "🎓",
-        title: "Initiation & Cours",
-        description: "Apprenez avec le meilleur joueur français",
-        details: [
-          "Cours pour débutants",
-          "Perfectionnement",
-          "Conseils de Thibault",
-          "Techniques professionnelles"
+        icon: "🌶️",
+        title: "Épices & Condiments",
+        description: "Pour relever tous vos plats",
+        items: [
+          "Piments frais et séchés",
+          "Épices africaines et asiatiques",
+          "Bouillons (Maggi, Jumbo, Adja...)",
+          "Huiles (palme, arachide...)"
         ]
       },
       {
-        icon: "🍺",
-        title: "Bar & Convivialité",
-        description: "Un vrai bar avec une vraie ambiance",
-        details: [
-          "Boissons variées",
-          "Snacking",
-          "Écrans géants",
-          "Ambiance chaleureuse"
+        icon: "🍚",
+        title: "Féculents & Céréales",
+        description: "Base de nombreux plats",
+        items: [
+          "Riz (basmati, jasmin, thaï...)",
+          "Farine de manioc, maïs",
+          "Semoule, couscous",
+          "Légumes secs (haricots, lentilles...)"
+        ]
+      },
+      {
+        icon: "🥫",
+        title: "Conserves",
+        description: "Pratiques et longue conservation",
+        items: [
+          "Tomates, concentrés",
+          "Légumes en conserve",
+          "Sauces préparées",
+          "Produits prêts à consommer"
+        ]
+      },
+      {
+        icon: "❄️",
+        title: "Surgelés",
+        description: "Qualité et fraîcheur garanties",
+        items: [
+          "Viandes et poissons",
+          "Légumes préparés",
+          "Plats cuisinés",
+          "Produits de la mer"
+        ]
+      },
+      {
+        icon: "🍬",
+        title: "Sucré & Boissons",
+        description: "Gourmandises du monde",
+        items: [
+          "Jus exotiques (bissap, gingembre...)",
+          "Bonbons et confiseries",
+          "Biscuits importés",
+          "Chocolats et pâtisseries"
+        ]
+      },
+      {
+        icon: "💆‍♀️",
+        title: "Cosmétiques Afro",
+        description: "Soins capillaires et beauté",
+        items: [
+          "Beurre de karité",
+          "Huiles capillaires",
+          "Produits de beauté afro",
+          "Savons traditionnels"
         ]
       }
     ]
   },
 
-  // POURQUOI LE DARTRAD
+  // POURQUOI NOUS
   whyUs: {
-    title: "Pourquoi le Dartrad ?",
+    title: "Pourquoi la Maison Exotique ?",
     reasons: [
       {
-        icon: "⭐",
-        title: "Fondé par un champion",
-        description: "Thibault Tricole, n°1 français, a créé ce lieu pour partager sa passion"
+        icon: "🌍",
+        title: "Large choix",
+        description: "Des produits d'Afrique, Asie, Antilles, Brésil, Réunion..."
       },
       {
-        icon: "🎯",
-        title: "Équipement pro",
-        description: "Cibles et fléchettes de qualité professionnelle"
+        icon: "✈️",
+        title: "Fraîcheur garantie",
+        description: "Approvisionnement hebdomadaire à Paris pour certains produits"
       },
       {
-        icon: "👥",
-        title: "Tous niveaux",
-        description: "Du débutant complet au joueur confirmé, tout le monde est bienvenu"
+        icon: "💰",
+        title: "Prix accessibles",
+        description: "Des tarifs compétitifs pour rendre l'exotisme accessible à tous"
       },
       {
-        icon: "🏆",
-        title: "Ambiance unique",
-        description: "L'esprit traditionnel des pubs anglais avec la convivialité bretonne"
+        icon: "🤝",
+        title: "Conseil personnalisé",
+        description: "On vous aide à choisir et on partage nos recettes"
       },
       {
-        icon: "📺",
-        title: "Retransmissions live",
-        description: "Suivez les grands championnats sur écran géant"
+        icon: "📍",
+        title: "Proximité",
+        description: "Plus besoin d'aller loin, tout est à Loudéac !"
       },
       {
-        icon: "🍻",
-        title: "Bar complet",
-        description: "Bières, softs, snacking... tout pour passer un bon moment"
+        icon: "❤️",
+        title: "Accueil chaleureux",
+        description: "Une ambiance familiale et conviviale"
       }
     ]
+  },
+
+  // HISTOIRE
+  story: {
+    title: "Notre Histoire",
+    content: "La Maison Exotique est née d'une constatation simple : beaucoup de clients qui venaient sur les marchés autour de Rennes habitaient Loudéac, mais n'avaient pas toujours les moyens de transport pour faire le déplacement. Moinecha Oiziri, qui tenait un stand de produits exotiques, a décidé de franchir le pas et d'ouvrir une boutique fixe à Loudéac. Depuis octobre 2025, la Maison Exotique accueille ses clients au 7 boulevard de la Gare. L'aventure continue également à Merdrignac où une seconde boutique reste ouverte. Chaque semaine, Moinecha se rend à Paris pour s'approvisionner en produits rares et garantir la fraîcheur de certains articles. C'est ce dévouement et cette passion qui font de la Maison Exotique un lieu unique dans la région."
   },
 
   // POUR QUI
   target: {
-    title: "Le Dartrad, c'est pour qui ?",
+    title: "La Maison Exotique, c'est pour qui ?",
     profiles: [
       {
-        icon: "🎯",
-        title: "Les curieux",
-        description: "Vous n'avez jamais joué ? Parfait, on vous apprend !"
+        icon: "🏠",
+        title: "Les expatriés",
+        description: "Retrouvez les saveurs de votre pays"
       },
       {
-        icon: "🍺",
-        title: "Les groupes d'amis",
-        description: "Une sortie originale et conviviale entre potes"
-      },
-      {
-        icon: "🏆",
-        title: "Les compétiteurs",
-        description: "Venez vous entraîner et progresser avec des pros"
+        icon: "👨‍🍳",
+        title: "Les cuisiniers aventureux",
+        description: "Découvrez de nouvelles recettes du monde"
       },
       {
         icon: "👨‍👩‍👧‍👦",
         title: "Les familles",
-        description: "Un loisir accessible à tous les âges"
+        description: "Faites voyager vos enfants à travers la cuisine"
       },
       {
-        icon: "🎉",
-        title: "Les événements",
-        description: "Anniversaires, EVG/EVJF, team building..."
+        icon: "🌱",
+        title: "Les végétariens",
+        description: "Large choix de légumes secs, épices et céréales"
       },
       {
-        icon: "📺",
-        title: "Les fans de dart",
-        description: "Regardez les championnats entre passionnés"
+        icon: "🎓",
+        title: "Les étudiants",
+        description: "Produits à prix accessibles pour cuisiner chez soi"
+      },
+      {
+        icon: "🍽️",
+        title: "Les restaurants",
+        description: "Approvisionnement professionnel en produits authentiques"
       }
     ]
   },
 
-  // LES FLÉCHETTES
-  darts: {
-    title: "Les Fléchettes, c'est quoi ?",
-    subtitle: "Un sport de précision accessible à tous",
-    description: "Les fléchettes sont un sport de précision où le joueur lance des fléchettes sur une cible circulaire divisée en sections. Simple à comprendre, difficile à maîtriser, c'est un jeu qui allie concentration, technique et stratégie.",
-    rules: [
-      {
-        title: "La cible",
-        text: "Divisée en 20 sections numérotées, avec des zones doubles et triples"
-      },
-      {
-        title: "Le jeu le plus populaire",
-        text: "Le 501 : partir de 501 points et arriver exactement à 0"
-      },
-      {
-        title: "La distance",
-        text: "2,37 mètres de la cible, réglementaire"
-      },
-      {
-        title: "Les fléchettes",
-        text: "3 fléchettes par tour, pointes acier pour les traditionnelles"
-      }
-    ],
-    benefits: [
-      "Améliore la concentration",
-      "Développe la précision",
-      "Sport accessible à tous",
-      "Convivial et compétitif",
-      "Peut se pratiquer à tout âge"
+  // RECETTES & CONSEILS
+  recipes: {
+    title: "Besoin d'inspiration ?",
+    subtitle: "On vous aide à cuisiner",
+    description: "Vous ne savez pas comment utiliser un produit ? Vous cherchez une recette ? N'hésitez pas à nous demander ! Nous partageons volontiers nos conseils et nos recettes favorites.",
+    examples: [
+      "Poulet Yassa (Sénégal)",
+      "Mafé (sauce arachide)",
+      "Attiéké avec poisson grillé",
+      "Dombré (Antilles)",
+      "Bobotie (Afrique du Sud)",
+      "Curry de légumes (Réunion)"
     ]
   },
 
   // INFORMATIONS PRATIQUES
   infos: {
-    title: "Informations pratiques",
-    opening: {
-      date: "Vendredi 6 février 2026",
-      inauguration: "Fin mars 2026",
-      note: "Ouverture initialement prévue plus tôt, mais nous voulions être bien prêts !"
-    },
+    title: "Informations Pratiques",
     address: {
-      street: "14 rue Albert-de-Mun",
-      city: "56300 Pontivy",
-      region: "Morbihan, Bretagne"
+      street: "7 boulevard de la Gare",
+      city: "22600 Loudéac",
+      region: "Côtes-d'Armor, Bretagne"
     },
     hours: {
-      note: "Horaires à venir",
-      temp: "Les horaires seront communiqués prochainement"
+      current: "Du lundi au dimanche : 10h - 19h30",
+      closed: "Fermé le mardi",
+      note: "Évolution possible des horaires du dimanche prochainement",
+      weekdays: {
+        monday: "10h00 - 19h30",
+        tuesday: "Fermé",
+        wednesday: "10h00 - 19h30",
+        thursday: "10h00 - 19h30",
+        friday: "10h00 - 19h30",
+        saturday: "10h00 - 19h30",
+        sunday: "10h00 - 19h30"
+      }
     },
     contact: {
-      phone: "À venir",
-      email: "contact@dartrad.fr",
-      facebook: "Dartrad Pontivy",
-      instagram: "@dartrad_pontivy"
+      phone: "06 50 07 18 69",
+      email: "contact@maison-exotique-loudeac.fr"
+    },
+    otherLocation: {
+      name: "Maison Exotique Merdrignac",
+      note: "Nous gardons également notre boutique de Merdrignac"
     }
   },
 
   // ACTUALITÉS
   news: {
-    title: "Suivez l'aventure",
+    title: "Actualités",
     latest: {
-      title: "Ouverture confirmée le 6 février 2026 !",
-      date: "Janvier 2026",
-      content: "Après des mois de travaux débutés en octobre 2025, le Dartrad ouvrira ses portes le vendredi 6 février 2026. L'inauguration officielle aura lieu fin mars. Thibault et Marie sont impatients de vous accueillir dans ce lieu unique à Pontivy !"
+      date: "Octobre 2025",
+      title: "Ouverture à Loudéac !",
+      content: "Après le succès sur les marchés, la Maison Exotique ouvre ses portes au 7 boulevard de la Gare à Loudéac. Venez découvrir notre large gamme de produits exotiques !"
     }
   },
 
-  // THIBAULT AU MONDIAL
-  worldChampionship: {
-    title: "Thibault aux Championnats du Monde",
-    description: "Suivez les performances de Thibault Tricole aux plus grandes compétitions mondiales",
-    recent: "Thibault a participé pour la 3ème fois consécutive aux Championnats du monde PDC à Londres en décembre 2025",
-    next: "Suivez ses prochaines compétitions en direct au Dartrad !"
-  },
-
-  // L'HISTOIRE
-  story: {
-    title: "L'histoire du Dartrad",
-    timeline: [
-      {
-        date: "Octobre 2025",
-        event: "Début des travaux",
-        description: "Thibault et Marie lancent la transformation du local rue Albert-de-Mun"
-      },
-      {
-        date: "Janvier 2026",
-        event: "Finalisation",
-        description: "Les derniers aménagements sont peaufinés pour offrir le meilleur cadre"
-      },
-      {
-        date: "6 février 2026",
-        event: "Ouverture !",
-        description: "Le Dartrad ouvre ses portes au public"
-      },
-      {
-        date: "Fin mars 2026",
-        event: "Inauguration officielle",
-        description: "Grande fête d'inauguration avec invités et animations"
-      }
-    ]
-  },
-
-  // ÉVÉNEMENTS
-  events: {
-    title: "Événements à venir",
-    upcoming: [
-      {
-        title: "Ouverture au public",
-        date: "6 février 2026",
-        description: "Venez découvrir le Dartrad dès le premier jour !"
-      },
-      {
-        title: "Inauguration officielle",
-        date: "Fin mars 2026",
-        description: "Grande soirée d'inauguration avec animations et surprises"
-      }
-    ]
-  },
+  // FAQ
+  faq: [
+    {
+      question: "Où vous approvisionnez-vous ?",
+      answer: "Nous nous approvisionnons auprès de fournisseurs spécialisés et nous allons nous-même une fois par semaine à Paris pour certains produits frais et rares."
+    },
+    {
+      question: "Avez-vous des produits halal ?",
+      answer: "Oui, nous proposons une sélection de viandes halal (poulet, bœuf, mouton)."
+    },
+    {
+      question: "Puis-je commander des produits spécifiques ?",
+      answer: "Oui ! Si vous cherchez un produit particulier, n'hésitez pas à nous le demander. Nous ferons notre possible pour vous le trouver."
+    },
+    {
+      question: "Proposez-vous des conseils de cuisine ?",
+      answer: "Absolument ! Nous adorons partager nos recettes et conseils. N'hésitez pas à nous poser des questions sur l'utilisation des produits."
+    },
+    {
+      question: "Y a-t-il un parking ?",
+      answer: "Oui, vous pouvez vous garer à proximité du magasin, boulevard de la Gare."
+    },
+    {
+      question: "Faites-vous la livraison ?",
+      answer: "Pour le moment nous ne faisons pas de livraison, mais vous pouvez passer nous voir en boutique du lundi au dimanche (fermé le mardi)."
+    }
+  ],
 
   // SEO
   seo: {
-    title: "Dartrad Pontivy - Bar à Fléchettes de Thibault Tricole",
-    description: "Le Dartrad, bar à fléchettes créé par Thibault Tricole (n°1 français) et Marie Bouffaut. Ouverture le 6 février 2026 à Pontivy. Jeu, tournois, initiation et convivialité.",
-    keywords: "Dartrad, bar fléchettes Pontivy, Thibault Tricole, fléchettes Morbihan, dart Bretagne, bar Pontivy, The French Touch, fléchettes traditionnelles, tournoi dart"
+    title: "Maison Exotique Loudéac - Épicerie Africaine, Asiatique & du Monde",
+    description: "Maison Exotique, votre épicerie du monde à Loudéac. Produits d'Afrique, Asie, Antilles, Brésil, Réunion. Viandes, poissons, fruits, légumes, épices, cosmétiques afro. 7 bd de la Gare, 22600 Loudéac.",
+    keywords: "Maison Exotique, épicerie exotique Loudéac, produits africains Loudéac, épicerie africaine Côtes-d'Armor, produits asiatiques, Antilles, Réunion, épices, cosmétiques afro, halal Loudéac, 22600"
   },
 
   // THÈME (couleurs du logo)
   theme: {
-    primary: "orange", // Orange du logo
-    secondary: "amber", // Beige/crème
-    accent: "purple", // Mauve
-    dark: "stone", // Marron foncé
-    mode: "light" // Fond clair avec accents sombres
+    primary: "red", // Rouge/corail du logo
+    secondary: "orange", // Orange chaleureux
+    accent: "amber", // Beige/crème
+    warm: "yellow", // Jaune pour accents
+    mode: "light" // Mode clair et chaleureux
   }
 };
