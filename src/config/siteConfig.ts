@@ -1,353 +1,353 @@
 export const siteConfig = {
   // IDENTITÉ
-  storeName: "Maison Exotique",
-  slogan: "Mariziki Nema Na Baraka",
-  sloganTranslation: "(Swahili : Avec amour et bénédiction)",
-  tagline: "Épicerie du Monde",
+  salonName: "Suzanne Ongles",
+  owner: "Suzanne Foulfoin",
+  title: "Prothésiste Ongulaire",
+  tagline: "Sublimez vos ongles",
+  slogan: "Un espace cocooning rien que pour vous",
   city: "Loudéac",
   region: "Côtes-d'Armor, Bretagne",
   
   // HERO
   hero: {
-    title: "Maison Exotique",
-    subtitle: "Votre épicerie du monde à Loudéac",
-    slogan: "Mariziki Nema Na Baraka",
-    description: "Découvrez les saveurs du monde entier dans notre épicerie à Loudéac. Des produits d'Afrique, des Antilles, du Brésil, d'Asie et bien plus encore. Fruits, légumes, surgelés, conserves, épices... tout pour voyager à travers vos assiettes !",
+    title: "Suzanne Ongles",
+    subtitle: "Prothésiste Ongulaire à Loudéac",
+    description: "Bienvenue dans mon univers dédié à la beauté de vos mains. Je vous accueille dans un espace chaleureux et cocooning pour sublimer vos ongles et vous offrir un vrai moment de détente.",
     opening: "Ouvert depuis octobre 2025",
-    cta: "Découvrez nos produits"
+    cta: "Prendre rendez-vous",
+    rating: "5.0/5 (31 avis)"
   },
 
-  // GÉRANTE
-  manager: {
-    name: "Moinecha Oiziri",
-    age: 42,
-    title: "Gérante",
-    experience: "Anciennement sur les marchés autour de Rennes",
-    story: "Après avoir sillonné les marchés de la région rennaise, Moinecha a décidé d'ouvrir une boutique fixe à Loudéac. Beaucoup de clients venaient de Loudéac mais n'avaient pas toujours les moyens de transport pour se déplacer. C'est ainsi qu'est née la Maison Exotique !",
-    passion: "Faire découvrir les saveurs du monde et rendre accessible des produits parfois difficiles à trouver."
-  },
-
-  // CONCEPT
-  concept: {
-    title: "Notre Concept",
-    subtitle: "Les saveurs du monde à Loudéac",
-    mission: "Proposer des produits exotiques de qualité, introuvables ailleurs dans la région, pour permettre à chacun de cuisiner les plats de son pays ou de découvrir de nouvelles saveurs.",
-    engagement: "Certains produits, nous allons les chercher nous-même une fois par semaine à Paris pour garantir leur fraîcheur et leur authenticité.",
-    atmosphere: "Une ambiance chaleureuse et familiale où chacun est accueilli avec le sourire. Nous prenons le temps de conseiller nos clients et de partager nos connaissances."
-  },
-
-  // ORIGINES DES PRODUITS
-  origins: {
-    title: "D'où viennent nos produits ?",
-    subtitle: "Un tour du monde sans quitter Loudéac",
-    regions: [
-      {
-        icon: "🌍",
-        name: "Côte d'Ivoire",
-        description: "Attiéké, igname, bananes plantain, manioc, épices..."
-      },
-      {
-        icon: "🏝️",
-        name: "La Réunion",
-        description: "Épices créoles, achards, rougail, rhum arrangé..."
-      },
-      {
-        icon: "🇧🇷",
-        name: "Brésil",
-        description: "Produits brésiliens authentiques"
-      },
-      {
-        icon: "🥢",
-        name: "Asie",
-        description: "Nouilles, sauces, épices asiatiques, produits frais..."
-      },
-      {
-        icon: "🌴",
-        name: "Antilles",
-        description: "Produits des îles, fruits exotiques, spécialités créoles..."
-      },
-      {
-        icon: "🌍",
-        name: "Afrique",
-        description: "Sénégal, Mali, Cameroun, Congo... Produits typiques de chaque pays"
-      }
+  // SUZANNE
+  suzanne: {
+    name: "Suzanne Foulfoin",
+    title: "Prothésiste Ongulaire Passionnée",
+    bio: "Passionnée par mon métier, je propose une large gamme de prestations allant du stylisme ongulaire et nail art à la pose d'ongles en gel, en passant par le vernis semi-permanent. Mon expérience et mon savoir-faire me permettent d'offrir un service minutieux et perfectionné.",
+    expertise: "Spécialiste de la beauté des mains reconnue pour la qualité de son travail et sa créativité",
+    passion: "Je suis une artiste de l'ongle, et mon objectif est de faire pétiller votre beauté jusqu'au bout des doigts !",
+    values: [
+      "Qualité & minutie",
+      "Créativité & nail art",
+      "Accueil chaleureux",
+      "Espace cocooning",
+      "Professionnalisme"
     ]
   },
 
-  // GAMME DE PRODUITS
-  products: {
-    title: "Nos Produits",
-    subtitle: "Du sucré au salé, tout pour cuisiner le monde",
+  // LE SALON
+  salon: {
+    title: "Le Salon",
+    description: "Un espace chaleureux et accueillant avec une décoration moderne aux nuances subtiles. Chaque détail a été pensé pour que vous vous sentiez à l'aise et profitiez d'un moment de pure détente.",
+    atmosphere: "Ambiance cocooning et intimiste pour un moment rien qu'à vous",
+    features: [
+      "Décoration moderne et féminine",
+      "Espace cocooning et relaxant",
+      "Matériel professionnel de qualité",
+      "Produits haut de gamme",
+      "Intimité garantie"
+    ]
+  },
+
+  // PRESTATIONS & TARIFS
+  services: {
+    title: "Mes Prestations",
+    subtitle: "Des mains sublimées selon vos envies",
+    note: "Je ne propose pas de remplissage extérieur. Si vos ongles ont été faits ailleurs, merci d'ajouter une dépose extérieure puis la prestation souhaitée.",
     categories: [
       {
-        icon: "🥩",
-        title: "Viandes & Poissons",
-        description: "Viandes fumées, séchées, surgelées",
-        items: [
-          "Poissons africains (tilapia, capitaine...)",
-          "Viandes fumées",
-          "Poulet, bœuf, mouton halal",
-          "Produits de la mer surgelés"
+        name: "Semi-Permanent",
+        icon: "💅",
+        description: "Vernis longue tenue sur ongle naturel (pas de nail art)",
+        prestations: [
+          {
+            name: "Semi-permanent",
+            duration: "1h",
+            price: "30€",
+            details: "Vernis longue tenue appliqué sur l'ongle naturel. Idéal pour un rendu net et soigné. Tient 2 à 3 semaines."
+          },
+          {
+            name: "Dépose + Repose Semi-permanent",
+            duration: "1h10",
+            price: "35€",
+            details: "Dépose de votre ancien semi-permanent + nouvelle pose"
+          },
+          {
+            name: "Dépose semi-permanent",
+            duration: "20min",
+            price: "10€",
+            details: "Retrait soigneux de votre vernis semi-permanent"
+          }
         ]
       },
       {
-        icon: "🥕",
-        title: "Fruits & Légumes",
-        description: "Frais et exotiques",
-        items: [
-          "Bananes plantain",
-          "Igname, manioc, patates douces",
-          "Gombo, feuilles de manioc",
-          "Fruits exotiques de saison"
+        name: "Gainage",
+        icon: "✨",
+        description: "Renforcement des ongles fragiles",
+        prestations: [
+          {
+            name: "Gainage - couleur simple",
+            duration: "1h30",
+            price: "45€",
+            details: "Renforcement des ongles fragiles grâce au gel ou rubber base. Pour garder une longueur naturelle tout en solidifiant. Tient 4 semaines."
+          },
+          {
+            name: "Gainage + rallongement - couleur simple",
+            duration: "1h45",
+            price: "48€",
+            details: "Gainage + réparation de 1 à 3 ongles cassés (rallongement). Tient 4 semaines."
+          }
         ]
       },
       {
-        icon: "🌶️",
-        title: "Épices & Condiments",
-        description: "Pour relever tous vos plats",
-        items: [
-          "Piments frais et séchés",
-          "Épices africaines et asiatiques",
-          "Bouillons (Maggi, Jumbo, Adja...)",
-          "Huiles (palme, arachide...)"
-        ]
-      },
-      {
-        icon: "🍚",
-        title: "Féculents & Céréales",
-        description: "Base de nombreux plats",
-        items: [
-          "Riz (basmati, jasmin, thaï...)",
-          "Farine de manioc, maïs",
-          "Semoule, couscous",
-          "Légumes secs (haricots, lentilles...)"
-        ]
-      },
-      {
-        icon: "🥫",
-        title: "Conserves",
-        description: "Pratiques et longue conservation",
-        items: [
-          "Tomates, concentrés",
-          "Légumes en conserve",
-          "Sauces préparées",
-          "Produits prêts à consommer"
-        ]
-      },
-      {
-        icon: "❄️",
-        title: "Surgelés",
-        description: "Qualité et fraîcheur garanties",
-        items: [
-          "Viandes et poissons",
-          "Légumes préparés",
-          "Plats cuisinés",
-          "Produits de la mer"
-        ]
-      },
-      {
-        icon: "🍬",
-        title: "Sucré & Boissons",
-        description: "Gourmandises du monde",
-        items: [
-          "Jus exotiques (bissap, gingembre...)",
-          "Bonbons et confiseries",
-          "Biscuits importés",
-          "Chocolats et pâtisseries"
-        ]
-      },
-      {
-        icon: "💆‍♀️",
-        title: "Cosmétiques Afro",
-        description: "Soins capillaires et beauté",
-        items: [
-          "Beurre de karité",
-          "Huiles capillaires",
-          "Produits de beauté afro",
-          "Savons traditionnels"
+        name: "Nail Art",
+        icon: "🎨",
+        description: "Personnalisez vos ongles selon vos envies",
+        note: "Merci de me transmettre vos idées avant le RDV pour un tarif adapté. PAS DE NAIL ART SUR LE SEMI-PERMANENT.",
+        prestations: [
+          {
+            name: "Effet chrome",
+            duration: "5min",
+            price: "2€",
+            details: "Effet miroir élégant"
+          },
+          {
+            name: "French manucure / Baby boomer",
+            duration: "15min",
+            price: "5€",
+            details: "Classique intemporel"
+          },
+          {
+            name: "Nail art niveau 1",
+            duration: "15min",
+            price: "5€",
+            details: "Petites décorations discrètes : traits fins, pois, paillettes sur quelques doigts"
+          },
+          {
+            name: "Nail art niveau 2",
+            duration: "20min",
+            price: "10€",
+            details: "Techniques élaborées : blooming, dégradés, dessins détaillés, chrome"
+          },
+          {
+            name: "Nail art niveau 3",
+            duration: "30min",
+            price: "15€",
+            details: "Mélange de techniques : blooming, dégradé, chrome, french..."
+          }
         ]
       }
     ]
   },
 
-  // POURQUOI NOUS
-  whyUs: {
-    title: "Pourquoi la Maison Exotique ?",
+  // POURQUOI ME CHOISIR
+  whyChoose: {
+    title: "Pourquoi choisir Suzanne Ongles ?",
     reasons: [
       {
-        icon: "🌍",
-        title: "Large choix",
-        description: "Des produits d'Afrique, Asie, Antilles, Brésil, Réunion..."
+        icon: "⭐",
+        title: "Note 5/5",
+        description: "31 clientes satisfaites avec une note parfaite sur tous les critères"
       },
       {
-        icon: "✈️",
-        title: "Fraîcheur garantie",
-        description: "Approvisionnement hebdomadaire à Paris pour certains produits"
+        icon: "💎",
+        title: "Qualité professionnelle",
+        description: "Matériel et produits haut de gamme pour un résultat impeccable"
       },
       {
-        icon: "💰",
-        title: "Prix accessibles",
-        description: "Des tarifs compétitifs pour rendre l'exotisme accessible à tous"
+        icon: "🎨",
+        title: "Créativité",
+        description: "Du nail art sur-mesure pour des ongles uniques"
       },
-      {
-        icon: "🤝",
-        title: "Conseil personnalisé",
-        description: "On vous aide à choisir et on partage nos recettes"
-      },
-      {
-        icon: "📍",
-        title: "Proximité",
-        description: "Plus besoin d'aller loin, tout est à Loudéac !"
-      },
-      {
-        icon: "❤️",
-        title: "Accueil chaleureux",
-        description: "Une ambiance familiale et conviviale"
-      }
-    ]
-  },
-
-  // HISTOIRE
-  story: {
-    title: "Notre Histoire",
-    content: "La Maison Exotique est née d'une constatation simple : beaucoup de clients qui venaient sur les marchés autour de Rennes habitaient Loudéac, mais n'avaient pas toujours les moyens de transport pour faire le déplacement. Moinecha Oiziri, qui tenait un stand de produits exotiques, a décidé de franchir le pas et d'ouvrir une boutique fixe à Loudéac. Depuis octobre 2025, la Maison Exotique accueille ses clients au 7 boulevard de la Gare. L'aventure continue également à Merdrignac où une seconde boutique reste ouverte. Chaque semaine, Moinecha se rend à Paris pour s'approvisionner en produits rares et garantir la fraîcheur de certains articles. C'est ce dévouement et cette passion qui font de la Maison Exotique un lieu unique dans la région."
-  },
-
-  // POUR QUI
-  target: {
-    title: "La Maison Exotique, c'est pour qui ?",
-    profiles: [
       {
         icon: "🏠",
-        title: "Les expatriés",
-        description: "Retrouvez les saveurs de votre pays"
+        title: "Ambiance cocooning",
+        description: "Un espace intimiste et relaxant rien que pour vous"
       },
       {
-        icon: "👨‍🍳",
-        title: "Les cuisiniers aventureux",
-        description: "Découvrez de nouvelles recettes du monde"
+        icon: "⏱️",
+        title: "Tenue longue durée",
+        description: "Vos ongles restent parfaits pendant 2 à 4 semaines"
       },
       {
-        icon: "👨‍👩‍👧‍👦",
-        title: "Les familles",
-        description: "Faites voyager vos enfants à travers la cuisine"
-      },
-      {
-        icon: "🌱",
-        title: "Les végétariens",
-        description: "Large choix de légumes secs, épices et céréales"
-      },
-      {
-        icon: "🎓",
-        title: "Les étudiants",
-        description: "Produits à prix accessibles pour cuisiner chez soi"
-      },
-      {
-        icon: "🍽️",
-        title: "Les restaurants",
-        description: "Approvisionnement professionnel en produits authentiques"
+        icon: "💝",
+        title: "Service personnalisé",
+        description: "À l'écoute de vos envies pour un résultat qui vous ressemble"
       }
     ]
   },
 
-  // RECETTES & CONSEILS
-  recipes: {
-    title: "Besoin d'inspiration ?",
-    subtitle: "On vous aide à cuisiner",
-    description: "Vous ne savez pas comment utiliser un produit ? Vous cherchez une recette ? N'hésitez pas à nous demander ! Nous partageons volontiers nos conseils et nos recettes favorites.",
-    examples: [
-      "Poulet Yassa (Sénégal)",
-      "Mafé (sauce arachide)",
-      "Attiéké avec poisson grillé",
-      "Dombré (Antilles)",
-      "Bobotie (Afrique du Sud)",
-      "Curry de légumes (Réunion)"
+  // AVIS CLIENTS
+  reviews: {
+    title: "Vos Avis",
+    rating: 5.0,
+    totalReviews: 31,
+    breakdown: {
+      accueil: 5.0,
+      proprete: 5.0,
+      cadre: 5.0,
+      qualite: 5.0
+    },
+    testimonials: [
+      {
+        rating: 5,
+        text: "Rien à dire, travail soigné qui tient bien dans le temps. Accueil au top. Je recommence !",
+        date: "Janvier 2026"
+      },
+      {
+        rating: 5,
+        text: "Tout était parfait! Suzanne est très gentille et les ongles sont très réussis je suis vraiment contente du résultat !!",
+        date: "Janvier 2026"
+      },
+      {
+        rating: 5,
+        text: "Suzanne est une personne très agréable. J'ai passé un très bon moment.",
+        date: "Janvier 2026"
+      },
+      {
+        rating: 5,
+        text: "Je recommande Suzanne, elle m'a fait passer un joli moment auprès d'elle ! Première fois pour mes ongles, et je recommencerai !!",
+        date: "Janvier 2026"
+      },
+      {
+        rating: 5,
+        text: "Toujours ravie des prestations et de l'accueil de Suzanne !",
+        date: "Janvier 2026"
+      }
     ]
   },
 
-  // INFORMATIONS PRATIQUES
+  // PROCESSUS
+  process: {
+    title: "Comment ça se passe ?",
+    steps: [
+      {
+        number: "01",
+        title: "Réservation",
+        description: "Prenez rendez-vous en ligne sur Planity, 24h/24"
+      },
+      {
+        number: "02",
+        title: "Accueil",
+        description: "Je vous accueille dans mon espace cocooning"
+      },
+      {
+        number: "03",
+        title: "Conseil",
+        description: "Nous discutons de vos envies et je vous conseille"
+      },
+      {
+        number: "04",
+        title: "Réalisation",
+        description: "Je sublime vos ongles avec soin et minutie"
+      },
+      {
+        number: "05",
+        title: "Détente",
+        description: "Profitez d'un moment de pure relaxation"
+      }
+    ]
+  },
+
+  // INFOS PRATIQUES
   infos: {
     title: "Informations Pratiques",
     address: {
-      street: "7 boulevard de la Gare",
+      street: "10 Avenue des Combattants",
       city: "22600 Loudéac",
       region: "Côtes-d'Armor, Bretagne"
     },
     hours: {
-      current: "Du lundi au dimanche : 10h - 19h30",
-      closed: "Fermé le mardi",
-      note: "Évolution possible des horaires du dimanche prochainement",
-      weekdays: {
-        monday: "10h00 - 19h30",
-        tuesday: "Fermé",
-        wednesday: "10h00 - 19h30",
-        thursday: "10h00 - 19h30",
-        friday: "10h00 - 19h30",
-        saturday: "10h00 - 19h30",
-        sunday: "10h00 - 19h30"
-      }
+      monday: "08:00 - 19:00",
+      tuesday: "08:00 - 19:00",
+      wednesday: "08:00 - 19:00",
+      thursday: "08:00 - 19:00",
+      friday: "08:00 - 18:00",
+      saturday: "Fermé",
+      sunday: "Fermé"
     },
-    contact: {
-      phone: "06 50 07 18 69",
-      email: "contact@maison-exotique-loudeac.fr"
+    booking: {
+      platform: "Planity",
+      url: "https://www.planity.com/suzanne-ongles-22600-loudeac",
+      features: [
+        "Réservation 24h/24",
+        "Gratuit",
+        "Confirmation immédiate",
+        "Choix de la prestation",
+        "Sélection de la date et l'heure"
+      ]
     },
-    otherLocation: {
-      name: "Maison Exotique Merdrignac",
-      note: "Nous gardons également notre boutique de Merdrignac"
-    }
+    parking: "Stationnement facile à proximité",
+    opening: "Ouvert depuis octobre 2025"
   },
 
-  // ACTUALITÉS
-  news: {
-    title: "Actualités",
-    latest: {
-      date: "Octobre 2025",
-      title: "Ouverture à Loudéac !",
-      content: "Après le succès sur les marchés, la Maison Exotique ouvre ses portes au 7 boulevard de la Gare à Loudéac. Venez découvrir notre large gamme de produits exotiques !"
-    }
+  // CONSEILS
+  tips: {
+    title: "Mes Conseils",
+    items: [
+      {
+        icon: "💡",
+        title: "Avant le RDV",
+        advice: "Envoyez-moi vos inspirations nail art pour que je puisse préparer votre prestation"
+      },
+      {
+        icon: "🚫",
+        title: "Ongles faits ailleurs",
+        advice: "Pensez à réserver une dépose extérieure en plus de votre prestation souhaitée"
+      },
+      {
+        icon: "⏱️",
+        title: "Durée de tenue",
+        advice: "Semi-permanent : 2-3 semaines • Gainage : 4 semaines"
+      },
+      {
+        icon: "🎨",
+        title: "Nail art",
+        advice: "Le nail art n'est pas réalisé sur le semi-permanent, uniquement sur le gel/gainage"
+      }
+    ]
   },
 
   // FAQ
   faq: [
     {
-      question: "Où vous approvisionnez-vous ?",
-      answer: "Nous nous approvisionnons auprès de fournisseurs spécialisés et nous allons nous-même une fois par semaine à Paris pour certains produits frais et rares."
+      question: "Puis-je venir pour un remplissage si mes ongles ont été faits ailleurs ?",
+      answer: "Je ne propose pas de remplissage extérieur. Si vos ongles ont été réalisés ailleurs, il faudra d'abord réserver une dépose extérieure, puis la prestation souhaitée."
     },
     {
-      question: "Avez-vous des produits halal ?",
-      answer: "Oui, nous proposons une sélection de viandes halal (poulet, bœuf, mouton)."
+      question: "Peut-on faire du nail art sur du semi-permanent ?",
+      answer: "Non, le nail art n'est pas réalisé sur le semi-permanent. Il est uniquement possible sur les poses en gel et le gainage."
     },
     {
-      question: "Puis-je commander des produits spécifiques ?",
-      answer: "Oui ! Si vous cherchez un produit particulier, n'hésitez pas à nous le demander. Nous ferons notre possible pour vous le trouver."
+      question: "Combien de temps tiennent les ongles ?",
+      answer: "Le semi-permanent tient environ 2 à 3 semaines. Le gainage tient environ 4 semaines."
     },
     {
-      question: "Proposez-vous des conseils de cuisine ?",
-      answer: "Absolument ! Nous adorons partager nos recettes et conseils. N'hésitez pas à nous poser des questions sur l'utilisation des produits."
+      question: "Comment réserver un rendez-vous ?",
+      answer: "Vous pouvez réserver directement en ligne sur Planity 24h/24. La réservation est gratuite et vous recevez une confirmation immédiate."
+    },
+    {
+      question: "Dois-je apporter mes inspirations nail art ?",
+      answer: "Oui, merci de me transmettre vos idées ou inspirations avant le rendez-vous, afin que je puisse déterminer le niveau de nail art et vous proposer un tarif adapté."
     },
     {
       question: "Y a-t-il un parking ?",
-      answer: "Oui, vous pouvez vous garer à proximité du magasin, boulevard de la Gare."
-    },
-    {
-      question: "Faites-vous la livraison ?",
-      answer: "Pour le moment nous ne faisons pas de livraison, mais vous pouvez passer nous voir en boutique du lundi au dimanche (fermé le mardi)."
+      answer: "Oui, vous pouvez vous garer facilement à proximité du salon, avenue des Combattants."
     }
   ],
 
   // SEO
   seo: {
-    title: "Maison Exotique Loudéac - Épicerie Africaine, Asiatique & du Monde",
-    description: "Maison Exotique, votre épicerie du monde à Loudéac. Produits d'Afrique, Asie, Antilles, Brésil, Réunion. Viandes, poissons, fruits, légumes, épices, cosmétiques afro. 7 bd de la Gare, 22600 Loudéac.",
-    keywords: "Maison Exotique, épicerie exotique Loudéac, produits africains Loudéac, épicerie africaine Côtes-d'Armor, produits asiatiques, Antilles, Réunion, épices, cosmétiques afro, halal Loudéac, 22600"
+    title: "Suzanne Ongles - Prothésiste Ongulaire Loudéac | Nail Art & Manucure",
+    description: "Suzanne Ongles, prothésiste ongulaire à Loudéac. Semi-permanent, gainage, nail art, manucure. Note 5/5 • Espace cocooning • RDV en ligne sur Planity. 10 av. des Combattants, 22600 Loudéac.",
+    keywords: "Suzanne Ongles, prothésiste ongulaire Loudéac, nail art Loudéac, manucure Loudéac, semi-permanent, gainage ongles, pose ongles gel, onglerie Côtes-d'Armor, 22600, Suzanne Foulfoin"
   },
 
-  // THÈME (couleurs du logo)
+  // THÈME
   theme: {
-    primary: "red", // Rouge/corail du logo
-    secondary: "orange", // Orange chaleureux
-    accent: "amber", // Beige/crème
-    warm: "yellow", // Jaune pour accents
-    mode: "light" // Mode clair et chaleureux
+    primary: "pink", // Rose élégant
+    secondary: "purple", // Violet doux
+    accent: "rose", // Rose poudré
+    light: "pink", // Fond clair rosé
+    mode: "light" // Mode clair et féminin
   }
 };
