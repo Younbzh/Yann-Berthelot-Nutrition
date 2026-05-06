@@ -1,31 +1,27 @@
 export const siteConfig = {
-  // Informations générales
-  businessName: "Nicolas Chapron",
-  tagline: "Peinture • Décoration • Ravalement",
-  description: "Entreprise de peinture et décoration à Loudéac depuis 2013. Expertise en peinture intérieure, extérieure, ravalement de façades et pose de revêtements.",
-  
-  // Coordonnées
+  businessName: "Antoine Rault",
+  tagline: "Peinture & Décoration",
+  description: "Artisan peintre diplômé (CAP, BEP, Bac Pro) avec plus de 25 ans d'expérience. Accompagnement personnalisé, conseils adaptés et finitions soignées à Saint-Barnabé.",
+
   contact: {
-    phone: "02 96 28 98 38",
-    mobile: "07 68 63 80 22",
-    email: "nico.chapron@sfr.fr",
+    phone: "06 32 22 92 31",
+    mobile: "",
+    email: "antoinerault.peinture@gmail.com",
     address: {
-      street: "Rue du Bourgeon",
-      city: "Loudéac",
+      street: "",
+      city: "Saint-Barnabé",
       postalCode: "22600",
       region: "Bretagne",
       country: "France"
     }
   },
 
-  // Réseaux sociaux
   social: {
     facebook: "",
     instagram: "",
     linkedin: ""
   },
 
-  // Horaires
   hours: {
     message: "Du lundi au vendredi : 8h - 18h",
     details: [
@@ -35,63 +31,60 @@ export const siteConfig = {
     ]
   },
 
-  // Hero Section
   hero: {
-    title: "Votre artisan peintre à Loudéac",
-    subtitle: "Depuis 2013, notre équipe de professionnels qualifiés réalise vos projets de peinture, décoration et ravalement avec expertise et finitions soignées.",
+    title: "L'exigence du détail, au service de votre intérieur",
+    subtitle: "Plus de 25 ans d'expérience dans la peinture bâtiment, un accompagnement personnalisé et des finitions soignées pour chaque projet.",
     cta: {
       primary: "Demander un devis gratuit",
-      secondary: "Nos prestations"
+      secondary: "Mes prestations"
     },
     features: [
-      "12 ans d'expérience",
-      "Équipe qualifiée",
+      "25 ans d'expérience",
+      "Artisan diplômé",
       "Finitions soignées"
     ]
   },
 
-  // À propos
   about: {
-    title: "L'entreprise Nicolas Chapron",
-    subtitle: "Votre partenaire de confiance pour tous vos travaux de peinture",
+    title: "Antoine Rault – L'exigence du détail.",
+    subtitle: "Artisan peintre diplômé, au service de vos projets les plus exigeants",
     content: [
-      "Fondée en 2013 par Nicolas Chapron, notre entreprise s'est imposée comme un acteur incontournable de la peinture et de la décoration dans la région de Loudéac.",
-      "Avec une équipe de 3 à 5 professionnels qualifiés, nous intervenons sur tous types de travaux, du simple rafraîchissement de peinture aux projets de ravalement complets.",
-      "Notre expertise dans la sélection des produits et matériaux les plus adaptés à chaque projet nous permet de garantir des résultats durables et esthétiques."
+      "J'ai le plaisir de vous annoncer la création de mon entreprise, après plus de 25 ans d'expérience dans le domaine de la peinture bâtiment.",
+      "Diplômé (CAP, BEP, Bac Professionnel), je mets aujourd'hui mon expertise au service de projets exigeants, où chaque détail compte.",
+      "Parce que votre intérieur mérite l'excellence, je vous propose des prestations alliant savoir-faire, précision et élégance."
     ],
     values: [
       {
-        title: "Expertise",
-        description: "12 ans d'expérience dans le choix des matériaux et techniques adaptés à chaque projet"
+        title: "Accompagnement",
+        description: "Un suivi personnalisé de A à Z, de la conception de votre projet jusqu'à la réception des travaux"
+      },
+      {
+        title: "Conseil",
+        description: "Des conseils adaptés à vos envies et à votre intérieur, pour des choix éclairés et des résultats durables"
       },
       {
         title: "Qualité",
-        description: "Finitions propres et soignées, travail réalisé avec rigueur et professionnalisme"
+        description: "Une qualité d'exécution irréprochable, des finitions soignées à la hauteur de vos attentes"
       },
       {
-        title: "Écoute",
-        description: "Relation de confiance avec chaque client pour cerner au mieux vos besoins et envies"
-      },
-      {
-        title: "Compétitivité",
-        description: "Des prestations de qualité à des prix compétitifs, devis gratuit et personnalisé"
+        title: "Élégance",
+        description: "Un savoir-faire alliant précision et élégance, pour des réalisations qui vous ressemblent"
       }
     ],
     stats: [
-      { number: "12", label: "ans d'expérience" },
-      { number: "5", label: "professionnels" },
+      { number: "25+", label: "ans d'expérience" },
+      { number: "3", label: "diplômes professionnels" },
       { number: "100%", label: "satisfaction" }
     ]
   },
 
-  // Services
   services: {
-    title: "Nos prestations",
-    subtitle: "Une gamme complète de services pour tous vos projets",
+    title: "Mes prestations",
+    subtitle: "Une expertise complète pour tous vos projets de peinture et décoration",
     list: [
       {
         name: "Peinture intérieure",
-        description: "Murs, plafonds, boiseries : nous donnons vie à votre intérieur avec des finitions impeccables. Du simple rafraîchissement à la transformation complète.",
+        description: "Murs, plafonds, boiseries : je donne vie à votre intérieur avec des finitions impeccables, du simple rafraîchissement à la transformation complète.",
         features: [
           "Préparation des surfaces",
           "Peinture murs et plafonds",
@@ -123,8 +116,8 @@ export const siteConfig = {
         icon: "Building2"
       },
       {
-        name: "Décoration & revêtements muraux",
-        description: "Papiers peints, toiles de verre, enduits décoratifs : nous vous conseillons et réalisons vos projets de décoration intérieure.",
+        name: "Décoration & revêtements",
+        description: "Papiers peints, toiles de verre, enduits décoratifs : je vous conseille et réalise vos projets de décoration intérieure avec soin.",
         features: [
           "Pose de papiers peints",
           "Toiles de verre",
@@ -132,145 +125,128 @@ export const siteConfig = {
           "Conseil en décoration"
         ],
         icon: "Palette"
-      },
-      {
-        name: "Revêtements de sols",
-        description: "Pose de parquets, sols vinyles et autres revêtements pour compléter harmonieusement vos projets de rénovation.",
-        features: [
-          "Pose de parquet",
-          "Sols vinyles",
-          "Préparation des supports",
-          "Finitions soignées"
-        ],
-        icon: "Square"
       }
     ]
   },
 
-  // Pourquoi nous choisir
   whyChooseUs: {
-    title: "Pourquoi choisir Nicolas Chapron ?",
-    subtitle: "Des atouts qui font la différence",
+    title: "Pourquoi choisir Antoine Rault ?",
+    subtitle: "Un artisan engagé, des prestations à la hauteur de vos exigences",
     reasons: [
       {
-        title: "Expertise des matériaux",
-        description: "Notre connaissance approfondie des produits et matériaux nous permet de vous conseiller et de sélectionner les solutions les plus adaptées à votre projet et à votre budget.",
+        title: "25 ans d'expérience",
+        description: "Plus d'un quart de siècle dédié à la peinture bâtiment : une expertise approfondie des techniques, des produits et des exigences de chaque chantier.",
         icon: "Award"
       },
       {
-        title: "Finitions irréprochables",
-        description: "Nous mettons un point d'honneur à la qualité de nos finitions. Chaque chantier est réalisé avec soin, propreté et précision pour un résultat impeccable.",
+        title: "Diplômé & qualifié",
+        description: "CAP, BEP et Bac Professionnel : une formation solide qui garantit un savoir-faire reconnu et une maîtrise irréprochable des techniques professionnelles.",
         icon: "CheckCircle"
       },
       {
-        title: "Relation de confiance",
-        description: "Nous prenons le temps d'écouter vos besoins et vos envies pour proposer des solutions sur-mesure. Votre satisfaction est notre priorité.",
+        title: "Accompagnement personnalisé",
+        description: "Je prends le temps d'écouter vos envies et de vous conseiller pour des choix adaptés à votre intérieur et à votre budget.",
         icon: "Users"
       },
       {
-        title: "Équipe qualifiée",
-        description: "Notre équipe de 3 à 5 professionnels expérimentés intervient sur tous types de travaux, des plus simples aux plus techniques.",
+        title: "Finitions soignées",
+        description: "Chaque détail compte. Je m'engage pour des finitions d'une précision irréprochable, à la hauteur de vos attentes les plus exigeantes.",
         icon: "Wrench"
       },
       {
-        title: "Proximité locale",
-        description: "Implantés à Loudéac depuis 2013, nous connaissons parfaitement la région et intervenons rapidement dans le Centre Bretagne.",
+        title: "Basé à Saint-Barnabé",
+        description: "Artisan local implanté en Centre Bretagne, j'interviens rapidement dans le secteur de Loudéac et ses environs.",
         icon: "MapPin"
       },
       {
-        title: "Prix compétitifs",
-        description: "Nous proposons des tarifs justes et compétitifs. Devis gratuit et détaillé pour la transparence totale sur votre projet.",
+        title: "Devis gratuit",
+        description: "Je vous propose un devis gratuit, détaillé et personnalisé, pour une totale transparence sur votre projet dès le premier échange.",
         icon: "Euro"
       }
     ]
   },
 
-  // Zone d'intervention
   serviceArea: {
     title: "Zone d'intervention",
-    description: "Nous intervenons à Loudéac et dans tout le Centre Bretagne",
+    description: "Artisan basé à Saint-Barnabé, j'interviens dans tout le secteur de Loudéac",
     cities: [
+      "Saint-Barnabé",
       "Loudéac",
       "Pontivy",
       "Rostrenen",
       "Mûr-de-Bretagne",
       "La Chèze",
-      "Saint-Barnabé",
       "Trévé",
       "Plémet",
       "Merdrignac",
-      "Et communes environnantes"
+      "Et environs"
     ],
-    radius: "Déplacements possibles dans un rayon de 30 km autour de Loudéac"
+    radius: "Déplacements possibles dans un rayon de 30 km autour de Saint-Barnabé"
   },
 
-  // FAQ
   faq: {
     title: "Questions fréquentes",
     subtitle: "Tout ce que vous devez savoir",
     questions: [
       {
         question: "Proposez-vous des devis gratuits ?",
-        answer: "Oui, nous établissons des devis gratuits et détaillés pour tous vos projets. Contactez-nous par téléphone ou par email pour convenir d'un rendez-vous."
+        answer: "Oui, j'établis des devis gratuits et détaillés pour tous vos projets. Contactez-moi par téléphone ou par email pour convenir d'un rendez-vous."
       },
       {
         question: "Quels sont vos délais d'intervention ?",
-        answer: "Nos délais varient selon l'ampleur du projet et notre planning. Nous nous efforçons d'intervenir dans les meilleurs délais et vous proposons un planning précis lors de l'établissement du devis."
+        answer: "Mes délais varient selon l'ampleur du projet et mon planning. Je vous proposerai un planning précis lors de l'établissement du devis et m'efforce d'intervenir dans les meilleurs délais."
       },
       {
         question: "Quels types de peinture utilisez-vous ?",
-        answer: "Nous sélectionnons les peintures et produits les plus adaptés à votre projet : peintures acryliques, glycéro, naturelles, anti-humidité, etc. Nous privilégions des marques professionnelles reconnues pour leur qualité et leur durabilité."
+        answer: "Je sélectionne les peintures et produits les plus adaptés à votre projet : peintures acryliques, glycéro, naturelles, anti-humidité, etc. Je privilégie des marques professionnelles reconnues pour leur qualité et leur durabilité."
       },
       {
         question: "Proposez-vous des garanties sur vos travaux ?",
-        answer: "Oui, nos travaux sont garantis. En tant que SARL établie depuis 2013, nous sommes couverts par une assurance décennale et responsabilité civile professionnelle."
+        answer: "Oui, mes travaux sont garantis. Je suis couvert par une assurance responsabilité civile professionnelle pour vous offrir toutes les garanties nécessaires."
       },
       {
         question: "Intervenez-vous chez les particuliers et les professionnels ?",
-        answer: "Absolument ! Nous réalisons des travaux pour les particuliers (maisons, appartements) comme pour les professionnels (locaux commerciaux, bureaux, bâtiments industriels)."
+        answer: "J'interviens aussi bien chez les particuliers (maisons, appartements) que chez les professionnels (locaux commerciaux, bureaux). Chaque projet est traité avec le même niveau d'exigence."
       },
       {
-        question: "Comment se déroule le chantier ?",
-        answer: "Nous préparons soigneusement les surfaces, protégeons vos meubles et sols, réalisons les travaux selon le planning établi, et nettoyons le chantier chaque soir. Propreté et respect de votre lieu de vie sont essentiels pour nous."
+        question: "Comment se déroule un chantier ?",
+        answer: "Je prépare soigneusement les surfaces, protège vos meubles et sols, réalise les travaux selon le planning établi, et nettoie le chantier chaque soir. Le respect de votre lieu de vie est une priorité absolue."
       },
       {
-        question: "Puis-je vous contacter en dehors des horaires d'ouverture ?",
-        answer: "Vous pouvez nous laisser un message sur notre répondeur ou nous envoyer un email à tout moment. Nous vous rappellerons dès que possible, généralement sous 24h."
+        question: "Puis-je vous contacter en dehors des horaires habituels ?",
+        answer: "Vous pouvez me laisser un message ou m'envoyer un email à tout moment. Je vous rappellerai dès que possible, généralement sous 24h."
       },
       {
         question: "Travaillez-vous toute l'année ?",
-        answer: "Oui, nous intervenons toute l'année. Pour les travaux extérieurs, nous adaptons notre planning selon les conditions météorologiques pour garantir un résultat optimal."
+        answer: "Oui, j'interviens toute l'année. Pour les travaux extérieurs, j'adapte mon planning selon les conditions météorologiques pour garantir un résultat optimal."
       }
     ]
   },
 
-  // Call to Action final
   finalCTA: {
     title: "Un projet de peinture ou de décoration ?",
-    subtitle: "Contactez-nous pour un devis gratuit et personnalisé",
+    subtitle: "Contactez-moi pour un devis gratuit et personnalisé",
     buttonText: "Demander un devis"
   },
 
-  // SEO
   seo: {
-    title: "Nicolas Chapron - Peinture Décoration Ravalement à Loudéac (22)",
-    description: "Entreprise de peinture et décoration à Loudéac depuis 2013. Peinture intérieure et extérieure, ravalement de façades, pose de revêtements. Devis gratuit. ☎ 02 96 28 98 38",
+    title: "Antoine Rault – Peinture & Décoration à Saint-Barnabé (22)",
+    description: "Artisan peintre diplômé avec plus de 25 ans d'expérience. Peinture intérieure, extérieure, ravalement de façades et décoration à Saint-Barnabé (22600). Devis gratuit. ☎ 06 32 22 92 31",
     keywords: [
+      "peintre Saint-Barnabé",
+      "peinture Saint-Barnabé",
+      "décoration Saint-Barnabé",
+      "artisan peintre 22600",
       "peintre Loudéac",
       "peinture Loudéac",
-      "décoration Loudéac",
-      "ravalement façade Loudéac",
-      "entreprise peinture 22600",
-      "artisan peintre Côtes-d'Armor",
-      "peinture intérieure Loudéac",
-      "peinture extérieure Loudéac",
-      "revêtements muraux Loudéac",
-      "Nicolas Chapron",
-      "peinture Centre Bretagne"
+      "ravalement façade 22",
+      "Antoine Rault peinture",
+      "peinture intérieure Bretagne",
+      "peinture extérieure Bretagne",
+      "artisan peintre Centre Bretagne"
     ]
   },
 
-  // Schema.org
   schema: {
     type: "LocalBusiness",
     additionalType: "ProfessionalService",
