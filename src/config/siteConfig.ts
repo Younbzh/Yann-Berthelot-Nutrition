@@ -1,15 +1,15 @@
 export const siteConfig = {
-  businessName: "Antoine Rault",
-  tagline: "Peinture & Décoration",
-  description: "Artisan peintre diplômé (CAP, BEP, Bac Pro) avec plus de 25 ans d'expérience. Accompagnement personnalisé, conseils adaptés et finitions soignées à Saint-Barnabé.",
+  businessName: "Yann Berthelot",
+  tagline: "Coach en Neuro-Nutrition",
+  description: "Coach en Neuro-Nutrition en formation certifiante à l'École 5.3 (Qualiopi). Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs Vivants.",
 
   contact: {
-    phone: "06 32 22 92 31",
+    phone: "06 63 00 41 27",
     mobile: "",
-    email: "antoinerault.peinture@gmail.com",
+    whatsapp: "https://wa.me/33663004127",
     address: {
       street: "",
-      city: "Saint-Barnabé",
+      city: "Loudéac",
       postalCode: "22600",
       region: "Bretagne",
       country: "France"
@@ -23,234 +23,239 @@ export const siteConfig = {
   },
 
   hours: {
-    message: "Du lundi au vendredi : 8h - 18h",
+    message: "Du lundi au vendredi : 9h - 19h",
     details: [
-      { day: "Lundi - Vendredi", hours: "8h00 - 18h00" },
+      { day: "Lundi – Vendredi", hours: "9h00 – 19h00" },
       { day: "Samedi", hours: "Sur rendez-vous" },
       { day: "Dimanche", hours: "Fermé" }
     ]
   },
 
   hero: {
-    title: "L'exigence du détail, au service de votre intérieur",
-    subtitle: "Plus de 25 ans d'expérience dans la peinture bâtiment, un accompagnement personnalisé et des finitions soignées pour chaque projet.",
+    title: "Retrouvez l'énergie, la légèreté et le calme que vous méritez",
+    subtitle: "Vous vous sentez épuisé(e), stressé(e) ou votre poids résiste malgré vos efforts ? Je vous accompagne avec la méthode des 5 Facteurs Vivants pour retrouver un équilibre durable — sans régime frustrant.",
     cta: {
-      primary: "Demander un devis gratuit",
-      secondary: "Mes prestations"
+      primary: "Premier entretien gratuit",
+      secondary: "Découvrir la méthode"
     },
     features: [
-      "25 ans d'expérience",
-      "Artisan diplômé",
-      "Finitions soignées"
+      "Méthode des 5 Facteurs Vivants",
+      "Formation certifiée Qualiopi",
+      "Accompagnement personnalisé"
     ]
   },
 
   about: {
-    title: "Antoine Rault – L'exigence du détail.",
-    subtitle: "Artisan peintre diplômé, au service de vos projets les plus exigeants",
+    title: "Yann Berthelot – Coach en Neuro-Nutrition",
+    subtitle: "Je vous accompagne à transformer votre relation à l'alimentation et à votre corps",
     content: [
-      "J'ai le plaisir de vous annoncer la création de mon entreprise, après plus de 25 ans d'expérience dans le domaine de la peinture bâtiment.",
-      "Diplômé (CAP, BEP, Bac Professionnel), je mets aujourd'hui mon expertise au service de projets exigeants, où chaque détail compte.",
-      "Parce que votre intérieur mérite l'excellence, je vous propose des prestations alliant savoir-faire, précision et élégance."
+      "Je suis Yann Berthelot, Coach en Neuro-Nutrition en formation certifiante auprès de l'École 5.3 — organisme certifié Qualiopi, reconnu par l'État — basée sur la méthode du Dr Yann Rougier, pionnier en neurosciences appliquées à la nutrition.",
+      "La neuro-nutrition, c'est comprendre comment votre cerveau, vos émotions et votre mode de vie influencent directement vos comportements alimentaires — et comment agir sur les bons leviers pour retrouver votre équilibre naturel.",
+      "Mon approche est globale : je ne me contente pas de vous donner un plan alimentaire. Nous travaillons ensemble sur les 5 Facteurs Vivants qui gouvernent votre santé, pour des résultats que vous ressentez vraiment et qui durent."
     ],
     values: [
       {
-        title: "Accompagnement",
-        description: "Un suivi personnalisé de A à Z, de la conception de votre projet jusqu'à la réception des travaux"
+        title: "Écoute",
+        description: "Je prends le temps de vous comprendre — vos habitudes, votre quotidien, vos blocages — pour un accompagnement qui vous ressemble vraiment."
       },
       {
-        title: "Conseil",
-        description: "Des conseils adaptés à vos envies et à votre intérieur, pour des choix éclairés et des résultats durables"
+        title: "Bienveillance",
+        description: "Pas de jugement, pas de frustration. Je vous guide avec douceur vers des changements qui s'ancrent dans la durée."
       },
       {
-        title: "Qualité",
-        description: "Une qualité d'exécution irréprochable, des finitions soignées à la hauteur de vos attentes"
+        title: "Science",
+        description: "La neuro-nutrition repose sur des bases solides en neurosciences et nutrition fonctionnelle. Vous comprenez pourquoi ça fonctionne."
       },
       {
-        title: "Élégance",
-        description: "Un savoir-faire alliant précision et élégance, pour des réalisations qui vous ressemblent"
+        title: "Autonomie",
+        description: "Mon objectif est de vous rendre autonome, pas dépendant(e). Vous repartez avec des outils qui fonctionnent pour la vie."
       }
     ],
     stats: [
-      { number: "25+", label: "ans d'expérience" },
-      { number: "3", label: "diplômes professionnels" },
-      { number: "100%", label: "satisfaction" }
+      { number: "5", label: "facteurs vivants" },
+      { number: "Qualiopi", label: "formation certifiée" },
+      { number: "100%", label: "personnalisé" }
     ]
   },
 
   services: {
-    title: "Mes prestations",
-    subtitle: "Une expertise complète pour tous vos projets de peinture et décoration",
+    title: "La Méthode des 5 Facteurs Vivants",
+    subtitle: "Une approche globale qui agit sur toutes les dimensions de votre santé — pas seulement sur ce que vous mangez.",
     list: [
       {
-        name: "Peinture intérieure",
-        description: "Murs, plafonds, boiseries : je donne vie à votre intérieur avec des finitions impeccables, du simple rafraîchissement à la transformation complète.",
+        name: "Nutrition",
+        description: "Rééquilibrez votre alimentation sans frustration ni régime draconien. Vous apprenez à nourrir votre cerveau et votre corps avec les bons nutriments, aux bons moments.",
         features: [
-          "Préparation des surfaces",
-          "Peinture murs et plafonds",
-          "Peinture boiseries",
-          "Finitions décoratives"
+          "Bilan alimentaire personnalisé",
+          "Alimentation anti-inflammatoire",
+          "Micronutrition ciblée",
+          "Sans régime restrictif"
         ],
-        icon: "PaintBucket"
+        icon: "Apple"
       },
       {
-        name: "Peinture extérieure",
-        description: "Protection et esthétique de vos façades, volets et menuiseries extérieures avec des produits adaptés aux conditions climatiques bretonnes.",
+        name: "Respiration",
+        description: "Votre souffle est un outil puissant trop souvent négligé. Des techniques de respiration ciblées activent votre système nerveux parasympathique pour calmer le stress et l'anxiété en quelques minutes.",
         features: [
-          "Peinture de façades",
-          "Volets et menuiseries",
-          "Traitement anti-humidité",
-          "Peintures résistantes"
+          "Cohérence cardiaque",
+          "Respiration anti-stress",
+          "Ancrage rapide et efficace",
+          "Pratique quotidienne simple"
         ],
-        icon: "Home"
+        icon: "Wind"
       },
       {
-        name: "Ravalement de façades",
-        description: "Rénovation complète de vos façades : nettoyage, réparation, enduit et finitions pour redonner tout son éclat à votre bâtiment.",
+        name: "Gestion des Émotions",
+        description: "Vous comprenez pourquoi vous mangez sous l'effet du stress, de l'ennui ou de la tristesse — et vous découvrez comment reprendre le contrôle de manière naturelle et bienveillante.",
         features: [
-          "Nettoyage de façade",
-          "Réparation des fissures",
-          "Application d'enduits",
-          "Protection longue durée"
+          "Identification des déclencheurs",
+          "Régulation émotionnelle",
+          "Lien émotions-alimentation",
+          "Outils concrets au quotidien"
         ],
-        icon: "Building2"
+        icon: "Heart"
       },
       {
-        name: "Décoration & revêtements",
-        description: "Papiers peints, toiles de verre, enduits décoratifs : je vous conseille et réalise vos projets de décoration intérieure avec soin.",
+        name: "Détox",
+        description: "Soutenez les capacités naturelles d'élimination de votre organisme. Une détox intelligente, non agressive, qui libère votre énergie et améliore votre clarté mentale.",
         features: [
-          "Pose de papiers peints",
-          "Toiles de verre",
-          "Enduits décoratifs",
-          "Conseil en décoration"
+          "Soutien des fonctions hépatiques",
+          "Hydratation optimale",
+          "Élimination des toxines",
+          "Énergie retrouvée"
         ],
-        icon: "Palette"
+        icon: "Droplets"
+      },
+      {
+        name: "Relaxation",
+        description: "Le sommeil et la récupération sont des piliers de votre santé métabolique. Je vous aide à retrouver un sommeil profond et réparateur pour que votre corps se régénère pleinement.",
+        features: [
+          "Hygiène du sommeil",
+          "Routines de détente",
+          "Gestion du cortisol",
+          "Récupération optimale"
+        ],
+        icon: "Moon"
       }
     ]
   },
 
   whyChooseUs: {
-    title: "Pourquoi choisir Antoine Rault ?",
-    subtitle: "Un artisan engagé, des prestations à la hauteur de vos exigences",
+    title: "Pourquoi me faire confiance ?",
+    subtitle: "Un accompagnement sérieux, humain et fondé sur des bases scientifiques solides",
     reasons: [
       {
-        title: "25 ans d'expérience",
-        description: "Plus d'un quart de siècle dédié à la peinture bâtiment : une expertise approfondie des techniques, des produits et des exigences de chaque chantier.",
+        title: "Formation certifiée Qualiopi",
+        description: "Je me forme à l'École 5.3, organisme certifié Qualiopi par l'État français. Mes compétences sont validées par des critères de qualité rigoureux.",
         icon: "Award"
       },
       {
-        title: "Diplômé & qualifié",
-        description: "CAP, BEP et Bac Professionnel : une formation solide qui garantit un savoir-faire reconnu et une maîtrise irréprochable des techniques professionnelles.",
+        title: "Méthode Dr Yann Rougier",
+        description: "La méthode des 5 Facteurs Vivants est fondée sur les dernières avancées en neurosciences et nutrition fonctionnelle — pas sur des modes passagères.",
         icon: "CheckCircle"
       },
       {
-        title: "Accompagnement personnalisé",
-        description: "Je prends le temps d'écouter vos envies et de vous conseiller pour des choix adaptés à votre intérieur et à votre budget.",
+        title: "Approche globale et humaine",
+        description: "Je ne vous donne pas un simple plan alimentaire. Je vous accompagne en tenant compte de votre mode de vie, vos émotions, votre sommeil et votre énergie.",
         icon: "Users"
       },
       {
-        title: "Finitions soignées",
-        description: "Chaque détail compte. Je m'engage pour des finitions d'une précision irréprochable, à la hauteur de vos attentes les plus exigeantes.",
+        title: "Résultats durables",
+        description: "Mon objectif est de vous rendre autonome. Vous repartez avec des outils qui fonctionnent pour la vie — pas seulement pendant l'accompagnement.",
         icon: "Wrench"
       },
       {
-        title: "Basé à Saint-Barnabé",
-        description: "Artisan local implanté en Centre Bretagne, j'interviens rapidement dans le secteur de Loudéac et ses environs.",
+        title: "Bretagne & visioconférence",
+        description: "Je reçois en présentiel en Bretagne et propose des séances en visioconférence pour s'adapter à votre emploi du temps, partout en France.",
         icon: "MapPin"
       },
       {
-        title: "Devis gratuit",
-        description: "Je vous propose un devis gratuit, détaillé et personnalisé, pour une totale transparence sur votre projet dès le premier échange.",
+        title: "Premier entretien offert",
+        description: "Je vous propose un premier échange gratuit et sans engagement pour comprendre votre situation et voir ensemble si mon accompagnement est fait pour vous.",
         icon: "Euro"
       }
     ]
   },
 
   serviceArea: {
-    title: "Zone d'intervention",
-    description: "Artisan basé à Saint-Barnabé, j'interviens dans tout le secteur de Loudéac",
+    title: "Je vous accompagne",
+    description: "En présentiel en Bretagne ou à distance partout en France — je m'adapte à votre rythme et à votre situation",
     cities: [
-      "Saint-Barnabé",
-      "Loudéac",
-      "Pontivy",
-      "Rostrenen",
-      "Mûr-de-Bretagne",
-      "La Chèze",
-      "Trévé",
-      "Plémet",
-      "Merdrignac",
-      "Et environs"
+      "Présentiel Bretagne",
+      "Visioconférence",
+      "Toute la France",
+      "Horaires flexibles",
+      "Suivi entre séances"
     ],
-    radius: "Déplacements possibles dans un rayon de 30 km autour de Saint-Barnabé"
+    radius: "Séances en cabinet en Bretagne · Visioconférence disponible partout en France"
   },
 
   faq: {
-    title: "Questions fréquentes",
-    subtitle: "Tout ce que vous devez savoir",
+    title: "Vos questions, mes réponses",
+    subtitle: "Tout ce que vous devez savoir avant de commencer",
     questions: [
       {
-        question: "Proposez-vous des devis gratuits ?",
-        answer: "Oui, j'établis des devis gratuits et détaillés pour tous vos projets. Contactez-moi par téléphone ou par email pour convenir d'un rendez-vous."
+        question: "Quelle est la différence entre un coach en neuro-nutrition et un diététicien ?",
+        answer: "Un diététicien est un professionnel de santé réglementé qui intervient dans un cadre médical. Un coach en neuro-nutrition travaille sur les comportements alimentaires, les émotions, le stress, le sommeil et la nutrition fonctionnelle pour accompagner des personnes souhaitant améliorer leur bien-être global. Les deux approches sont complémentaires."
       },
       {
-        question: "Quels sont vos délais d'intervention ?",
-        answer: "Mes délais varient selon l'ampleur du projet et mon planning. Je vous proposerai un planning précis lors de l'établissement du devis et m'efforce d'intervenir dans les meilleurs délais."
+        question: "Pour quels problèmes pouvez-vous m'aider ?",
+        answer: "Je peux vous accompagner si vous souffrez de fatigue chronique, de difficultés à perdre du poids malgré vos efforts, de stress chronique, de troubles du sommeil, de problèmes digestifs, de comportements alimentaires émotionnels — ou simplement si vous souhaitez optimiser votre énergie et votre bien-être au quotidien."
       },
       {
-        question: "Quels types de peinture utilisez-vous ?",
-        answer: "Je sélectionne les peintures et produits les plus adaptés à votre projet : peintures acryliques, glycéro, naturelles, anti-humidité, etc. Je privilégie des marques professionnelles reconnues pour leur qualité et leur durabilité."
+        question: "Comment se déroule le premier entretien gratuit ?",
+        answer: "Le premier entretien dure environ 30 minutes — en présentiel ou en visioconférence. Nous faisons le point ensemble sur votre situation, vos objectifs et vos blocages. À l'issue de cet échange, je vous explique comment je peux vous accompagner, sans aucun engagement de votre part."
       },
       {
-        question: "Proposez-vous des garanties sur vos travaux ?",
-        answer: "Oui, mes travaux sont garantis. Je suis couvert par une assurance responsabilité civile professionnelle pour vous offrir toutes les garanties nécessaires."
+        question: "Combien de temps dure un accompagnement ?",
+        answer: "Chaque accompagnement est personnalisé. Les premiers changements se font souvent sentir dès les premières semaines, mais un programme complet s'étale généralement sur 3 à 6 mois pour des résultats durables. Nous définissons ensemble le rythme qui vous convient."
       },
       {
-        question: "Intervenez-vous chez les particuliers et les professionnels ?",
-        answer: "J'interviens aussi bien chez les particuliers (maisons, appartements) que chez les professionnels (locaux commerciaux, bureaux). Chaque projet est traité avec le même niveau d'exigence."
+        question: "Les séances sont-elles remboursées ?",
+        answer: "Les séances de coaching en neuro-nutrition ne sont pas remboursées par la Sécurité sociale. Certaines mutuelles prennent en charge des consultations de bien-être et de nutrition — renseignez-vous auprès de la vôtre. N'hésitez pas à m'en parler lors de notre premier entretien."
       },
       {
-        question: "Comment se déroule un chantier ?",
-        answer: "Je prépare soigneusement les surfaces, protège vos meubles et sols, réalise les travaux selon le planning établi, et nettoie le chantier chaque soir. Le respect de votre lieu de vie est une priorité absolue."
+        question: "Proposez-vous des séances à distance ?",
+        answer: "Oui, je propose des séances en visioconférence (Zoom, Google Meet) qui fonctionnent exactement comme une séance en présentiel. C'est pratique, flexible, et tout aussi efficace."
       },
       {
-        question: "Puis-je vous contacter en dehors des horaires habituels ?",
-        answer: "Vous pouvez me laisser un message ou m'envoyer un email à tout moment. Je vous rappellerai dès que possible, généralement sous 24h."
+        question: "En quoi consiste la méthode des 5 Facteurs Vivants ?",
+        answer: "La méthode du Dr Yann Rougier agit simultanément sur 5 piliers de votre santé : la Nutrition, la Respiration, la Gestion des Émotions, la Détox et la Relaxation. Cette approche globale permet des résultats plus profonds et durables que les approches alimentaires seules."
       },
       {
-        question: "Travaillez-vous toute l'année ?",
-        answer: "Oui, j'interviens toute l'année. Pour les travaux extérieurs, j'adapte mon planning selon les conditions météorologiques pour garantir un résultat optimal."
+        question: "Puis-je vous contacter avant de prendre rendez-vous ?",
+        answer: "Bien sûr ! N'hésitez pas à m'appeler ou à m'envoyer un message. Je vous répondrai dans les 24 heures. Le premier échange est gratuit — c'est l'occasion idéale pour voir si mon accompagnement est adapté à votre situation."
       }
     ]
   },
 
   finalCTA: {
-    title: "Un projet de peinture ou de décoration ?",
-    subtitle: "Contactez-moi pour un devis gratuit et personnalisé",
-    buttonText: "Demander un devis"
+    title: "Prêt(e) à retrouver votre équilibre ?",
+    subtitle: "Premier entretien gratuit et sans engagement · Réponse sous 24h",
+    buttonText: "Prendre rendez-vous"
   },
 
   seo: {
-    title: "Antoine Rault – Peinture & Décoration à Saint-Barnabé (22)",
-    description: "Artisan peintre diplômé avec plus de 25 ans d'expérience. Peinture intérieure, extérieure, ravalement de façades et décoration à Saint-Barnabé (22600). Devis gratuit. ☎ 06 32 22 92 31",
+    title: "Yann Berthelot – Coach en Neuro-Nutrition | Bretagne & Visioconférence",
+    description: "Coach en Neuro-Nutrition en formation certifiante à l'École 5.3 (Qualiopi). Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs Vivants. Bretagne & visioconférence. ☎ 06 63 00 41 27",
     keywords: [
-      "peintre Saint-Barnabé",
-      "peinture Saint-Barnabé",
-      "décoration Saint-Barnabé",
-      "artisan peintre 22600",
-      "peintre Loudéac",
-      "peinture Loudéac",
-      "ravalement façade 22",
-      "Antoine Rault peinture",
-      "peinture intérieure Bretagne",
-      "peinture extérieure Bretagne",
-      "artisan peintre Centre Bretagne"
+      "coach neuro-nutrition Bretagne",
+      "neuro-nutrition",
+      "5 facteurs vivants",
+      "coach nutrition",
+      "fatigue chronique alimentation",
+      "perte de poids naturelle",
+      "stress alimentation émotionnelle",
+      "coach bien-être Bretagne",
+      "Yann Berthelot",
+      "École 5.3 Qualiopi"
     ]
   },
 
   schema: {
     type: "LocalBusiness",
-    additionalType: "ProfessionalService",
+    additionalType: "HealthAndBeautyBusiness",
     priceRange: "€€",
-    areaServed: "Centre Bretagne"
+    areaServed: "Bretagne, France"
   }
 };
