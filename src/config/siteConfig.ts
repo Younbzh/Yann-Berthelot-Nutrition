@@ -1,7 +1,7 @@
 export const siteConfig = {
   businessName: "Yann Berthelot",
-  tagline: "Coach en Neuro-Nutrition",
-  description: "Coach en Neuro-Nutrition en formation certifiante à l'École 5.3 (Qualiopi). Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs du Vivant.",
+  tagline: "Conseiller en Neuro-Nutrition",
+  description: "Conseiller en Neuro-Nutrition en formation certifiante à l'École 5.3 (Qualiopi). Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs du Vivant.",
 
   contact: {
     phone: "06 63 00 41 27",
@@ -43,7 +43,7 @@ export const siteConfig = {
       {
         icon: "Scale",
         text: "Votre poids résiste ou revient",
-        detail: "Vous avez essayé des régimes — certains ont marché un temps. Mais le poids revient, parfois en pire."
+        detail: "Vous avez tout essayé, et rien ne tient. Le corps résiste, il compense, il reprend. Pas par manque d'efforts : parce que la vraie cause n'a jamais été traitée."
       },
       {
         icon: "UtensilsCrossed",
@@ -58,23 +58,23 @@ export const siteConfig = {
       {
         icon: "Flame",
         text: "Votre digestion vous pèse",
-        detail: "Ballonnements, inconfort après les repas, transit irrégulier. Votre ventre parle — mais vous ne savez pas quoi lui répondre."
+        detail: "Ballonnements, inconfort après les repas, transit irrégulier. Votre ventre parle, mais vous ne savez pas quoi lui répondre."
       },
       {
         icon: "Brain",
-        text: "Vous savez ce qu'il faut faire — mais ça ne marche pas",
+        text: "Vous savez ce qu'il faut faire, mais ça ne marche pas",
         detail: "Vous connaissez les règles. Mais quelque chose entre vos bonnes intentions et votre assiette résiste encore."
       }
     ]
   },
 
-  histoire: "Ce qui m'a amené à la neuro-nutrition, c'est une conviction profonde : la volonté seule ne suffit pas — et ce n'est pas votre faute. Notre cerveau, nos hormones et nos émotions créent des automatismes bien plus puissants que nos bonnes résolutions. Les régimes classiques n'adressent jamais ces causes profondes, c'est pourquoi ils échouent. La méthode du Dr Yann Rougier m'a convaincu parce qu'elle agit sur les vrais leviers — pas sur les symptômes. Je me forme aujourd'hui à l'École 5.3 pour vous transmettre ces outils avec rigueur et bienveillance, et vous aider à retrouver un équilibre qui dure vraiment.",
+  histoire: "Ce qui m'a amené à la neuro-nutrition, c'est une conviction profonde : la volonté seule ne suffit pas, et ce n'est pas votre faute. Notre cerveau, nos hormones et nos émotions créent des automatismes bien plus puissants que nos bonnes résolutions. Les approches classiques ne s'attaquent jamais aux racines : elles traitent les symptômes, sans jamais toucher ce qui les génère. La méthode du Dr Yann Rougier m'a convaincu parce qu'elle agit sur les vrais leviers, pas sur les symptômes. Je me forme aujourd'hui à l'École 5.3 pour vous transmettre ces outils avec rigueur et bienveillance, et vous aider à retrouver un équilibre qui dure vraiment.",
 
   hero: {
     title: "Retrouvez l'énergie, la légèreté et le calme que vous méritez",
-    subtitle: "Vous vous sentez épuisé(e), stressé(e) ou votre poids résiste malgré vos efforts ? Je vous accompagne avec la méthode des 5 Facteurs du Vivant pour retrouver un équilibre durable — sans régime frustrant.",
+    subtitle: "Vous vous sentez épuisé(e), stressé(e) ou votre poids résiste malgré vos efforts ? Je vous accompagne avec la méthode des 5 Facteurs du Vivant pour retrouver un équilibre durable, sans régime frustrant.",
     cta: {
-      primary: "Premier entretien gratuit",
+      primary: "Appel découverte gratuit",
       secondary: "Découvrir la méthode"
     },
     features: [
@@ -84,18 +84,25 @@ export const siteConfig = {
     ]
   },
 
+  whoIAm: {
+    sectionLabel: "Qui je suis",
+    title: "Yann Berthelot",
+    subtitle: "Conseiller en Neuro-Nutrition",
+    intro: "Je m'appelle Yann Berthelot. Passionné par le lien entre le cerveau, les émotions et l'alimentation, je me forme à la méthode des 5 Facteurs du Vivant du Dr Yann Rougier au sein de l'École 5.3, organisme certifié Qualiopi, reconnu par l'État.",
+    formation: "Formation certifiante · École 5.3 · Qualiopi"
+  },
+
   about: {
-    title: "Yann Berthelot – Coach en Neuro-Nutrition",
-    subtitle: "Je vous accompagne à transformer votre relation à l'alimentation et à votre corps",
+    title: "Mon approche",
+    subtitle: "Une méthode globale pour agir sur les vraies causes",
     content: [
-      "Je suis Yann Berthelot, Coach en Neuro-Nutrition en formation certifiante auprès de l'École 5.3 — organisme certifié Qualiopi, reconnu par l'État — basée sur la méthode des 5 Facteurs du Vivant du Dr Yann Rougier.",
-      "La neuro-nutrition, c'est comprendre comment votre cerveau, vos émotions et votre mode de vie influencent directement vos comportements alimentaires — et comment agir sur les bons leviers pour retrouver votre équilibre naturel.",
-      "Mon approche est globale : je ne me contente pas de vous donner un plan alimentaire. Nous travaillons ensemble sur les 5 Facteurs du Vivant qui gouvernent votre santé, pour des résultats que vous ressentez vraiment et qui durent."
+      "La neuro-nutrition, c'est comprendre comment votre cerveau, vos émotions et votre mode de vie influencent directement vos comportements alimentaires, et comment agir sur les bons leviers pour retrouver votre équilibre naturel.",
+      "Mon accompagnement s'appuie sur les 5 Facteurs du Vivant : cinq dimensions indissociables de votre santé que l'on travaille ensemble, dans le bon ordre, à votre rythme. Pas de plan alimentaire imposé, une transformation qui vous ressemble."
     ],
     values: [
       {
         title: "Écoute",
-        description: "Je prends le temps de vous comprendre — vos habitudes, votre quotidien, vos blocages — pour un accompagnement qui vous ressemble vraiment."
+        description: "Je prends le temps de vous comprendre, vos habitudes, votre quotidien, vos blocages, pour un accompagnement qui vous ressemble vraiment."
       },
       {
         title: "Bienveillance",
@@ -119,7 +126,7 @@ export const siteConfig = {
 
   services: {
     title: "La Méthode des 5 Facteurs du Vivant",
-    subtitle: "Une approche globale qui agit sur toutes les dimensions de votre santé — pas seulement sur ce que vous mangez.",
+    subtitle: "Une approche globale qui agit sur toutes les dimensions de votre santé, pas seulement sur ce que vous mangez.",
     list: [
       {
         name: "Nutrition",
@@ -145,7 +152,7 @@ export const siteConfig = {
       },
       {
         name: "Gestion des Émotions",
-        description: "Vous comprenez pourquoi vous mangez sous l'effet du stress, de l'ennui ou de la tristesse — et vous découvrez comment reprendre le contrôle de manière naturelle et bienveillante.",
+        description: "Vous comprenez pourquoi vous mangez sous l'effet du stress, de l'ennui ou de la tristesse, et vous découvrez comment reprendre le contrôle de manière naturelle et bienveillante.",
         features: [
           "Identification des déclencheurs",
           "Régulation émotionnelle",
@@ -190,7 +197,7 @@ export const siteConfig = {
       },
       {
         title: "Méthode Dr Yann Rougier",
-        description: "La méthode des 5 Facteurs du Vivant est fondée sur les dernières avancées en neurosciences et nutrition fonctionnelle — pas sur des modes passagères.",
+        description: "La méthode des 5 Facteurs du Vivant est fondée sur les dernières avancées en neurosciences et nutrition fonctionnelle, pas sur des modes passagères.",
         icon: "CheckCircle"
       },
       {
@@ -200,7 +207,7 @@ export const siteConfig = {
       },
       {
         title: "Résultats durables",
-        description: "Mon objectif est de vous rendre autonome. Vous repartez avec des outils qui fonctionnent pour la vie — pas seulement pendant l'accompagnement.",
+        description: "Mon objectif est de vous rendre autonome. Vous repartez avec des outils qui fonctionnent pour la vie, pas seulement pendant l'accompagnement.",
         icon: "Wrench"
       },
       {
@@ -209,8 +216,8 @@ export const siteConfig = {
         icon: "MapPin"
       },
       {
-        title: "Premier entretien offert",
-        description: "Je vous propose un premier échange gratuit et sans engagement pour comprendre votre situation et voir ensemble si mon accompagnement est fait pour vous.",
+        title: "Appel découverte offert",
+        description: "Je vous propose un appel découverte gratuit et sans engagement pour comprendre votre situation et voir ensemble si mon accompagnement est fait pour vous.",
         icon: "Euro"
       }
     ]
@@ -218,7 +225,7 @@ export const siteConfig = {
 
   serviceArea: {
     title: "Je vous accompagne",
-    description: "En présentiel en Bretagne ou à distance partout en France — je m'adapte à votre rythme et à votre situation",
+    description: "En présentiel en Bretagne ou à distance partout en France, je m'adapte à votre rythme et à votre situation",
     cities: [
       "Présentiel Bretagne",
       "Visioconférence",
@@ -239,11 +246,11 @@ export const siteConfig = {
       },
       {
         question: "Pour quels problèmes pouvez-vous m'aider ?",
-        answer: "Je peux vous accompagner si vous souffrez de fatigue chronique, de difficultés à perdre du poids malgré vos efforts, de stress chronique, de troubles du sommeil, de problèmes digestifs, de comportements alimentaires émotionnels — ou simplement si vous souhaitez optimiser votre énergie et votre bien-être au quotidien."
+        answer: "Je peux vous accompagner si vous souffrez de fatigue chronique, de difficultés à perdre du poids malgré vos efforts, de stress chronique, de troubles du sommeil, de problèmes digestifs, de comportements alimentaires émotionnels, ou simplement si vous souhaitez optimiser votre énergie et votre bien-être au quotidien."
       },
       {
-        question: "Comment se déroule le premier entretien gratuit ?",
-        answer: "Le premier entretien dure environ 30 minutes — en présentiel ou en visioconférence. Nous faisons le point ensemble sur votre situation, vos objectifs et vos blocages. À l'issue de cet échange, je vous explique comment je peux vous accompagner, sans aucun engagement de votre part."
+        question: "Comment se déroule l'appel découverte gratuit ?",
+        answer: "L'appel découverte dure environ 30 minutes, en présentiel ou en visioconférence. Nous faisons le point ensemble sur votre situation, vos objectifs et vos blocages. À l'issue de cet échange, je vous explique comment je peux vous accompagner, sans aucun engagement de votre part."
       },
       {
         question: "Combien de temps dure un accompagnement ?",
@@ -251,7 +258,7 @@ export const siteConfig = {
       },
       {
         question: "Les séances sont-elles remboursées ?",
-        answer: "Les séances de coaching en neuro-nutrition ne sont pas remboursées par la Sécurité sociale. Certaines mutuelles prennent en charge des consultations de bien-être et de nutrition — renseignez-vous auprès de la vôtre. N'hésitez pas à m'en parler lors de notre premier entretien."
+        answer: "Les séances de conseil en neuro-nutrition ne sont pas remboursées par la Sécurité sociale. Certaines mutuelles prennent en charge des consultations de bien-être et de nutrition, renseignez-vous auprès de la vôtre. N'hésitez pas à m'en parler lors de notre premier échange."
       },
       {
         question: "Proposez-vous des séances à distance ?",
@@ -263,20 +270,20 @@ export const siteConfig = {
       },
       {
         question: "Puis-je vous contacter avant de prendre rendez-vous ?",
-        answer: "Bien sûr ! N'hésitez pas à m'appeler ou à m'envoyer un message. Je vous répondrai dans les 24 heures. Le premier échange est gratuit — c'est l'occasion idéale pour voir si mon accompagnement est adapté à votre situation."
+        answer: "Bien sûr ! N'hésitez pas à m'appeler ou à m'envoyer un message. Je vous répondrai dans les 24 heures. Le premier échange est gratuit, c'est l'occasion idéale pour voir si mon accompagnement est adapté à votre situation."
       }
     ]
   },
 
   finalCTA: {
     title: "Prêt(e) à retrouver votre équilibre ?",
-    subtitle: "Premier entretien gratuit et sans engagement · Réponse sous 24h",
+    subtitle: "Appel découverte gratuit et sans engagement · Réponse sous 24h",
     buttonText: "Prendre rendez-vous"
   },
 
   seo: {
-    title: "Yann Berthelot – Coach en Neuro-Nutrition | Bretagne & Visioconférence",
-    description: "Coach en Neuro-Nutrition en formation certifiante à l'École 5.3 (Qualiopi). Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs du Vivant. Bretagne & visioconférence. ☎ 06 63 00 41 27",
+    title: "Yann Berthelot – Conseiller en Neuro-Nutrition | Bretagne & Visioconférence",
+    description: "Conseiller en Neuro-Nutrition en formation certifiante à l'École 5.3 (Qualiopi). Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs du Vivant. Bretagne & visioconférence. ☎ 06 63 00 41 27",
     keywords: [
       "coach neuro-nutrition Bretagne",
       "neuro-nutrition",

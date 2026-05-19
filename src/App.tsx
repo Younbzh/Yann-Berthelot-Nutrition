@@ -71,19 +71,20 @@ export default function App() {
               </div>
               <div>
                 <p className="font-bold text-[#1C3424] text-sm leading-tight">Yann Berthelot</p>
-                <p className="text-[10px] text-[#C4813A] font-bold uppercase tracking-widest">Coach en Neuro-Nutrition</p>
+                <p className="text-[10px] text-[#C4813A] font-bold uppercase tracking-widest">Conseiller en Neuro-Nutrition</p>
               </div>
             </div>
 
-            <div className="hidden md:flex items-center gap-8">
+            <div className="hidden md:flex items-center gap-7">
+              <button onClick={() => go('qui-je-suis')} className="text-sm text-gray-600 hover:text-[#1C3424] font-medium transition-colors">Qui je suis</button>
               <button onClick={() => go('about')} className="text-sm text-gray-600 hover:text-[#1C3424] font-medium transition-colors">Mon approche</button>
-              <button onClick={() => go('services')} className="text-sm text-gray-600 hover:text-[#1C3424] font-medium transition-colors">Les 5 Facteurs</button>
-              <button onClick={() => go('faq')} className="text-sm text-gray-600 hover:text-[#1C3424] font-medium transition-colors">FAQ</button>
+              <button onClick={() => go('services')} className="text-sm text-gray-600 hover:text-[#1C3424] font-medium transition-colors">5 Facteurs du Vivant</button>
+              <button onClick={() => go('contact')} className="text-sm text-gray-600 hover:text-[#1C3424] font-medium transition-colors">Prendre rendez-vous</button>
               <button
                 onClick={() => go('contact')}
                 className="bg-[#C4813A] text-white text-sm px-5 py-2.5 rounded-full font-bold hover:bg-[#A8702A] transition-all shadow-md"
               >
-                Entretien gratuit
+                Appel découverte gratuit
               </button>
             </div>
 
@@ -94,11 +95,12 @@ export default function App() {
 
           {isMenuOpen && (
             <div className="md:hidden pb-4 border-t border-gray-100 pt-3 flex flex-col gap-2">
+              <button onClick={() => go('qui-je-suis')} className="text-left py-2 px-2 text-gray-700 font-medium">Qui je suis</button>
               <button onClick={() => go('about')} className="text-left py-2 px-2 text-gray-700 font-medium">Mon approche</button>
-              <button onClick={() => go('services')} className="text-left py-2 px-2 text-gray-700 font-medium">Les 5 Facteurs</button>
-              <button onClick={() => go('faq')} className="text-left py-2 px-2 text-gray-700 font-medium">FAQ</button>
+              <button onClick={() => go('services')} className="text-left py-2 px-2 text-gray-700 font-medium">5 Facteurs du Vivant</button>
+              <button onClick={() => go('contact')} className="text-left py-2 px-2 text-gray-700 font-medium">Prendre rendez-vous</button>
               <button onClick={() => go('contact')} className="mt-1 bg-[#C4813A] text-white px-5 py-3 rounded-full font-bold text-sm">
-                Entretien gratuit
+                Appel découverte gratuit
               </button>
             </div>
           )}
@@ -131,7 +133,7 @@ export default function App() {
                 Vous êtes épuisé(e), stressé(e) ou votre poids résiste malgré vos efforts ?
                 Je vous accompagne avec la méthode des{' '}
                 <strong className="text-[#1C3424]">5 Facteurs du Vivant</strong>{' '}
-                pour retrouver un équilibre durable — sans régime frustrant.
+                pour retrouver un équilibre durable, sans régime frustrant.
               </p>
 
               <div className="flex flex-wrap gap-3 mb-8">
@@ -139,7 +141,7 @@ export default function App() {
                   onClick={() => go('contact')}
                   className="bg-[#1C3424] text-white px-7 py-3.5 rounded-full font-bold text-sm hover:bg-[#2E5541] transition-all shadow-lg hover:shadow-xl"
                 >
-                  Premier entretien gratuit
+                  Appel découverte gratuit
                 </button>
                 <button
                   onClick={() => go('services')}
@@ -150,7 +152,7 @@ export default function App() {
               </div>
 
               <div className="flex flex-wrap gap-5 text-sm text-gray-500">
-                {['Sans engagement', 'Bretagne & visio', 'Réponse sous 24h'].map(f => (
+                {['Sans engagement', 'Bretagne & visio', 'Je vous réponds moi-même, sous 24h'].map(f => (
                   <span key={f} className="flex items-center gap-1.5">
                     <Check className="w-4 h-4 text-[#C4813A]" />
                     {f}
@@ -190,6 +192,9 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-6">
 
           <div className="text-center mb-14">
+            <p className="text-gray-500 text-lg mb-5 max-w-xl mx-auto">
+              Si vous lisez ces lignes, c'est peut-être que quelque chose coince depuis un moment. Vous n'êtes pas seul(e).
+            </p>
             <h2 className="text-4xl md:text-5xl font-bold text-[#1C3424] mb-3">
               {siteConfig.painPoints.title}
             </h2>
@@ -220,8 +225,8 @@ export default function App() {
             </blockquote>
             <p className="text-gray-500 text-lg mb-6">
               La neuro-nutrition agit sur les{' '}
-              <span className="font-semibold text-[#C4813A]">vraies causes</span>{' '}
-              — pas seulement sur ce que vous mangez.
+              <span className="font-semibold text-[#C4813A]">racines profondes</span>{' '}
+             , là où les approches classiques ne regardent jamais.
             </p>
             <button
               onClick={() => go('services')}
@@ -234,60 +239,120 @@ export default function App() {
         </div>
       </section>
 
-      {/* ── About ──────────────────────────────────────── */}
-      <section id="about" className="py-20 bg-[#FAF5EC]">
+      {/* ── Qui je suis ────────────────────────────────── */}
+      <section id="qui-je-suis" className="py-20 bg-[#FAF5EC]">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-16 items-start">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+
+            {/* Photo */}
+            <div className="flex justify-center lg:justify-start order-2 lg:order-1">
+              <div className="relative w-full max-w-md">
+                <div className="absolute -inset-2 bg-[#1C3424]/6 rounded-3xl -rotate-1" />
+                <img
+                  src="/1000009307.jpg"
+                  alt="Yann Berthelot – Conseiller en Neuro-Nutrition"
+                  className="relative w-full rounded-2xl shadow-lg"
+                />
+                <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 flex items-center gap-3 bg-white rounded-2xl px-5 py-3 shadow-xl border border-[#E8E0D4] whitespace-nowrap">
+                  <div className="w-8 h-8 bg-[#1C3424] rounded-lg flex items-center justify-center flex-shrink-0">
+                    <GraduationCap className="w-4 h-4 text-[#C4813A]" />
+                  </div>
+                  <span className="text-sm font-bold text-[#1C3424]">{siteConfig.whoIAm.formation}</span>
+                </div>
+              </div>
+            </div>
 
             {/* Texte */}
-            <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-[#C4813A] mb-4">Mon approche</p>
-              <h2 className="text-4xl md:text-5xl font-bold text-[#1C3424] mb-8">
-                {siteConfig.about.title}
+            <div className="order-1 lg:order-2">
+              <p className="text-xs font-bold uppercase tracking-widest text-[#C4813A] mb-4">{siteConfig.whoIAm.sectionLabel}</p>
+              <h2 className="text-4xl md:text-5xl font-bold text-[#1C3424] mb-2">
+                {siteConfig.whoIAm.title}
               </h2>
+              <p className="text-xl text-[#C4813A] font-semibold mb-7">{siteConfig.whoIAm.subtitle}</p>
 
-              <div className="space-y-5 mb-8">
-                {siteConfig.about.content.map((p, i) => (
-                  <p key={i} className="text-gray-700 leading-relaxed text-lg">{p}</p>
-                ))}
-              </div>
+              <p className="text-gray-700 leading-relaxed text-lg mb-5">
+                {siteConfig.whoIAm.intro}
+              </p>
+              <p className="text-gray-700 leading-relaxed text-lg mb-7">
+                Je ne suis pas médecin, et je ne prétends pas l'être. Ce que j'ai compris, c'est que changer ses habitudes ne se fait pas à la force de la volonté. Ça prend du sens, du temps, et quelqu'un à côté.
+              </p>
 
-              <div className="border-l-4 border-[#C4813A] pl-6 py-1">
+              <div className="border-l-4 border-[#C4813A] pl-6 py-1 mb-8">
                 <p className="text-xs font-bold uppercase tracking-widest text-[#C4813A] mb-3">Pourquoi ce métier</p>
                 <p className="text-gray-600 leading-relaxed italic">
                   "{siteConfig.histoire}"
                 </p>
               </div>
-            </div>
 
-            {/* Droite : carte credential + valeurs */}
-            <div className="space-y-6 lg:pt-16">
-              <div className="relative">
-                <div className="absolute -inset-2 bg-[#1C3424]/6 rounded-3xl rotate-1" />
-                <img
-                  src="/1000009307.jpg"
-                  alt="Yann Berthelot – Coach en Neuro-Nutrition"
-                  className="relative w-full rounded-2xl shadow-lg"
-                />
-              </div>
-
-              <div className="bg-white rounded-2xl p-6 shadow-sm border border-[#E8E0D4]">
-                <p className="text-xs font-bold uppercase tracking-widest text-[#C4813A] mb-4">Mon engagement</p>
-                <div className="grid grid-cols-2 gap-4">
-                  {siteConfig.about.values.map((v, i) => (
-                    <div key={i} className="flex items-start gap-2">
-                      <Check className="w-4 h-4 text-[#C4813A] mt-0.5 flex-shrink-0" />
-                      <div>
-                        <p className="font-bold text-[#1C3424] text-sm">{v.title}</p>
-                        <p className="text-xs text-gray-500 leading-snug mt-0.5">{v.description}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
+              <button
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                className="inline-flex items-center gap-2 bg-[#C4813A] text-white px-6 py-3 rounded-full font-bold text-sm hover:bg-[#A8702A] transition-all shadow-md"
+              >
+                Appel découverte gratuit <ArrowRight className="w-4 h-4" />
+              </button>
             </div>
 
           </div>
+        </div>
+      </section>
+
+      {/* ── Mon approche ───────────────────────────────── */}
+      <section id="about" className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+
+          <div className="text-center mb-12">
+            <p className="text-xs font-bold uppercase tracking-widest text-[#C4813A] mb-3">Mon approche</p>
+            <h2 className="text-4xl md:text-5xl font-bold text-[#1C3424] mb-4">
+              {siteConfig.about.title}
+            </h2>
+            <p className="text-lg text-gray-500 max-w-2xl mx-auto">
+              {siteConfig.about.subtitle}
+            </p>
+          </div>
+
+          <div className="max-w-3xl mx-auto mb-12 space-y-5">
+            {siteConfig.about.content.map((p, i) => (
+              <p key={i} className="text-gray-700 leading-relaxed text-lg text-center">{p}</p>
+            ))}
+          </div>
+
+          {/* Les 5 facteurs en badges visuels */}
+          <div className="bg-[#FAF5EC] rounded-3xl p-8 mb-10">
+            <p className="text-center text-xs font-bold uppercase tracking-widest text-[#C4813A] mb-6">Les 5 Facteurs du Vivant</p>
+            <div className="flex flex-wrap justify-center gap-4">
+              {[
+                { icon: 'Apple', label: 'Nutrition' },
+                { icon: 'Wind', label: 'Respiration' },
+                { icon: 'Droplets', label: 'Détox & Mouvement' },
+                { icon: 'Moon', label: 'Relaxation' },
+                { icon: 'Heart', label: 'Gestion des émotions' },
+              ].map((f) => (
+                <div key={f.label} className="flex items-center gap-3 bg-white rounded-2xl px-5 py-3 shadow-sm border border-[#E8E0D4]">
+                  <div className="w-9 h-9 rounded-xl bg-[#1C3424] flex items-center justify-center flex-shrink-0">
+                    <span className="text-[#C4813A]"><ServiceIcon name={f.icon} /></span>
+                  </div>
+                  <span className="font-bold text-[#1C3424] text-sm">{f.label}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Valeurs */}
+          <div className="bg-[#FAF5EC] rounded-2xl p-6 max-w-3xl mx-auto">
+            <p className="text-xs font-bold uppercase tracking-widest text-[#C4813A] mb-5 text-center">Mon engagement</p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {siteConfig.about.values.map((v, i) => (
+                <div key={i} className="flex flex-col items-center text-center gap-2">
+                  <div className="w-9 h-9 rounded-xl bg-white border border-[#E8E0D4] flex items-center justify-center">
+                    <Check className="w-4 h-4 text-[#C4813A]" />
+                  </div>
+                  <p className="font-bold text-[#1C3424] text-sm">{v.title}</p>
+                  <p className="text-xs text-gray-500 leading-snug">{v.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -377,7 +442,7 @@ export default function App() {
             Prêt(e) à retrouver votre équilibre ?
           </h2>
           <p className="text-white/60 text-lg mb-8">
-            Premier entretien gratuit · Loudéac ou visioconférence · Réponse sous 24h
+            Appel découverte gratuit · Loudéac ou visioconférence · Réponse sous 24h
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
@@ -451,6 +516,10 @@ export default function App() {
             </p>
           </div>
 
+          <p className="text-center text-gray-500 text-base max-w-lg mx-auto mb-10">
+            Je lis chaque message moi-même. Si vous hésitez encore, vous pouvez juste m'écrire pour en parler, sans aucune pression de ma part.
+          </p>
+
           <div className="grid md:grid-cols-3 gap-5 max-w-3xl mx-auto">
             <a
               href={`tel:${siteConfig.contact.phone.replace(/\s/g, '')}`}
@@ -506,7 +575,8 @@ export default function App() {
                 </div>
                 <div>
                   <p className="font-bold text-white text-sm">Yann Berthelot</p>
-                  <p className="text-[10px] text-[#C4813A] font-bold uppercase tracking-widest">Coach en Neuro-Nutrition</p>
+                  <p className="text-[10px] text-[#C4813A] font-bold uppercase tracking-widest">Conseiller en Neuro-Nutrition</p>
+
                 </div>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed">
@@ -535,7 +605,7 @@ export default function App() {
             <div>
               <h4 className="font-bold text-xs uppercase tracking-widest text-[#C4813A] mb-4">Formation</h4>
               <div className="space-y-1.5 text-sm text-gray-400">
-                <p>Coach en Neuro-Nutrition</p>
+                <p>Conseiller en Neuro-Nutrition</p>
                 <p>Formation certifiante École 5.3</p>
                 <p>Organisme certifié Qualiopi</p>
                 <p>Méthode Dr Yann Rougier</p>
