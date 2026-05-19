@@ -31,6 +31,45 @@ export const siteConfig = {
     ]
   },
 
+  painPoints: {
+    title: "Vous vous reconnaissez ?",
+    conclusion: "Ce n'est pas un manque de volonté. C'est votre biologie qui demande à être écoutée.",
+    items: [
+      {
+        icon: "BatteryLow",
+        text: "Vous vous levez épuisé(e)",
+        detail: "Même après une nuit complète, la fatigue est là dès le réveil. Vous traînez cette lassitude toute la journée."
+      },
+      {
+        icon: "Scale",
+        text: "Votre poids résiste ou revient",
+        detail: "Vous avez essayé des régimes — certains ont marché un temps. Mais le poids revient, parfois en pire."
+      },
+      {
+        icon: "UtensilsCrossed",
+        text: "Vous mangez sous le stress",
+        detail: "Sucre, grignotage, compulsions en soirée… vos émotions dictent vos assiettes, pas votre raison."
+      },
+      {
+        icon: "Coffee",
+        text: "Vous carburez au café pour tenir",
+        detail: "L'énergie s'effondre en milieu de matinée. Sans café, vous ne fonctionnez plus. Ce n'est pas normal."
+      },
+      {
+        icon: "Flame",
+        text: "Votre digestion vous pèse",
+        detail: "Ballonnements, inconfort après les repas, transit irrégulier. Votre ventre parle — mais vous ne savez pas quoi lui répondre."
+      },
+      {
+        icon: "Brain",
+        text: "Vous savez ce qu'il faut faire — mais ça ne marche pas",
+        detail: "Vous connaissez les règles. Mais quelque chose entre vos bonnes intentions et votre assiette résiste encore."
+      }
+    ]
+  },
+
+  histoire: "Ce qui m'a amené à la neuro-nutrition, c'est une conviction profonde : la volonté seule ne suffit pas — et ce n'est pas votre faute. Notre cerveau, nos hormones et nos émotions créent des automatismes bien plus puissants que nos bonnes résolutions. Les régimes classiques n'adressent jamais ces causes profondes, c'est pourquoi ils échouent. La méthode du Dr Yann Rougier m'a convaincu parce qu'elle agit sur les vrais leviers — pas sur les symptômes. Je me forme aujourd'hui à l'École 5.3 pour vous transmettre ces outils avec rigueur et bienveillance, et vous aider à retrouver un équilibre qui dure vraiment.",
+
   hero: {
     title: "Retrouvez l'énergie, la légèreté et le calme que vous méritez",
     subtitle: "Vous vous sentez épuisé(e), stressé(e) ou votre poids résiste malgré vos efforts ? Je vous accompagne avec la méthode des 5 Facteurs Vivants pour retrouver un équilibre durable — sans régime frustrant.",

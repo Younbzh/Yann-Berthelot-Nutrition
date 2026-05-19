@@ -3,7 +3,7 @@ import {
   Apple, Wind, Heart, Droplets, Moon,
   Award, CheckCircle, Users, Wrench, MapPin, Euro,
   Phone, MessageCircle, MapPinned, Clock, ChevronDown, Menu, X, Check,
-  GraduationCap, Leaf
+  GraduationCap, Leaf, BatteryLow, Scale, UtensilsCrossed, Coffee, Flame, Brain
 } from 'lucide-react';
 import { siteConfig } from './config/siteConfig';
 
@@ -172,6 +172,49 @@ export default function App() {
         </div>
       </section>
 
+      {/* Pain Points Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#1C3424] mb-4">
+              {siteConfig.painPoints.title}
+            </h2>
+            <p className="text-lg text-gray-500 italic">Cochez mentalement ce qui vous correspond.</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-14">
+            {siteConfig.painPoints.items.map((item, index) => (
+              <div key={index} className="flex gap-4 p-6 rounded-2xl border-2 border-[#FAF5EC] hover:border-[#C4813A]/30 hover:bg-[#FAF5EC] transition-all group">
+                <div className="flex-shrink-0 w-11 h-11 rounded-xl bg-[#C4813A]/10 flex items-center justify-center group-hover:bg-[#C4813A]/20 transition-colors">
+                  {item.icon === 'BatteryLow' && <BatteryLow className="w-5 h-5 text-[#C4813A]" />}
+                  {item.icon === 'Scale' && <Scale className="w-5 h-5 text-[#C4813A]" />}
+                  {item.icon === 'UtensilsCrossed' && <UtensilsCrossed className="w-5 h-5 text-[#C4813A]" />}
+                  {item.icon === 'Coffee' && <Coffee className="w-5 h-5 text-[#C4813A]" />}
+                  {item.icon === 'Flame' && <Flame className="w-5 h-5 text-[#C4813A]" />}
+                  {item.icon === 'Brain' && <Brain className="w-5 h-5 text-[#C4813A]" />}
+                </div>
+                <div>
+                  <p className="font-bold text-[#1C3424] mb-1 leading-snug">{item.text}</p>
+                  <p className="text-sm text-gray-500 leading-relaxed">{item.detail}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Phrase de bascule */}
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="inline-block bg-[#1C3424] text-white px-8 py-5 rounded-2xl shadow-lg">
+              <p className="text-xl font-bold leading-relaxed">
+                {siteConfig.painPoints.conclusion}
+              </p>
+            </div>
+            <p className="mt-6 text-gray-600 text-lg">
+              La neuro-nutrition agit sur les <span className="font-semibold text-[#C4813A]">vraies causes</span> — pas seulement sur ce que vous mangez.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -191,8 +234,17 @@ export default function App() {
                   {paragraph}
                 </p>
               ))}
+
+              {/* Mon histoire */}
+              <div className="mt-4 border-l-4 border-[#C4813A] pl-6 py-2">
+                <p className="text-xs font-bold uppercase tracking-widest text-[#C4813A] mb-3">Pourquoi ce métier</p>
+                <p className="text-gray-700 leading-relaxed italic">
+                  "{siteConfig.histoire}"
+                </p>
+              </div>
+
               {/* Carte méthode */}
-              <div className="mt-6">
+              <div className="mt-4">
                 <img
                   src="/1000009306.jpg"
                   alt="Les 5 Facteurs Vivants – Méthode Dr Yann Rougier"
