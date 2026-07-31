@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Apple, Wind, Heart, Droplets, Moon,
   Award, CheckCircle, Users, MapPin,
@@ -323,9 +323,9 @@ export default function App() {
               {[
                 { icon: 'Apple', label: 'Nutrition' },
                 { icon: 'Wind', label: 'Respiration' },
-                { icon: 'Droplets', label: 'Détox & Mouvement' },
-                { icon: 'Moon', label: 'Relaxation' },
                 { icon: 'Heart', label: 'Gestion des émotions' },
+                { icon: 'Droplets', label: 'Détox' },
+                { icon: 'Moon', label: 'Relaxation' },
               ].map((f) => (
                 <div key={f.label} className="flex items-center gap-3 bg-white rounded-2xl px-5 py-3 shadow-sm border border-[#E8E0D4]">
                   <div className="w-9 h-9 rounded-xl bg-[#1C3424] flex items-center justify-center flex-shrink-0">
