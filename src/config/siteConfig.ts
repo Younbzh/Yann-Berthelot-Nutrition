@@ -1,7 +1,7 @@
 export const siteConfig = {
   businessName: "Yann Berthelot",
   tagline: "Conseiller en Neuro-Nutrition",
-  description: "Conseiller en Neuro-Nutrition en formation certifiante à l'École 5.3 (Qualiopi). Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs du Vivant.",
+  description: "Conseiller en Neuro-Nutrition formé à l'École 5.3 (organisme certifié Qualiopi). Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs du Vivant.",
 
   contact: {
     phone: "06 63 00 41 27",
@@ -68,7 +68,7 @@ export const siteConfig = {
     ]
   },
 
-  histoire: "Ce qui m'a amené à la neuro-nutrition, c'est une conviction profonde : la volonté seule ne suffit pas, et ce n'est pas votre faute. Notre cerveau, nos hormones et nos émotions créent des automatismes bien plus puissants que nos bonnes résolutions. Les approches classiques ne s'attaquent jamais aux racines : elles traitent les symptômes, sans jamais toucher ce qui les génère. La méthode du Dr Yann Rougier m'a convaincu parce qu'elle agit sur les vrais leviers, pas sur les symptômes. Je me forme aujourd'hui à l'École 5.3 pour vous transmettre ces outils avec rigueur et bienveillance, et vous aider à retrouver un équilibre qui dure vraiment.",
+  histoire: "Ce qui m'a amené à la neuro-nutrition, c'est une conviction profonde : la volonté seule ne suffit pas, et ce n'est pas votre faute. Notre cerveau, nos hormones et nos émotions créent des automatismes bien plus puissants que nos bonnes résolutions. Les approches classiques ne s'attaquent jamais aux racines : elles traitent les symptômes, sans jamais toucher ce qui les génère. La méthode du Dr Yann Rougier m'a convaincu parce qu'elle agit sur les vrais leviers, pas sur les symptômes. Je me suis formé à l'École 5.3 pour vous transmettre ces outils avec rigueur et bienveillance, et vous aider à retrouver un équilibre qui dure vraiment.",
 
   hero: {
     title: "Retrouvez l'énergie, la légèreté et le calme que vous méritez",
@@ -88,8 +88,8 @@ export const siteConfig = {
     sectionLabel: "Qui je suis",
     title: "Yann Berthelot",
     subtitle: "Conseiller en Neuro-Nutrition",
-    intro: "Je m'appelle Yann Berthelot. Passionné par le lien entre le cerveau, les émotions et l'alimentation, je me forme à la méthode des 5 Facteurs du Vivant du Dr Yann Rougier au sein de l'École 5.3, organisme certifié Qualiopi, reconnu par l'État.",
-    formation: "Formation certifiante · École 5.3 · Qualiopi"
+    intro: "Je m'appelle Yann Berthelot. Passionné par le lien entre le cerveau, les émotions et l'alimentation, je me suis formé à la méthode des 5 Facteurs du Vivant du Dr Yann Rougier au sein de l'École 5.3, organisme certifié Qualiopi, reconnu par l'État. Ma formation certifiante est aujourd'hui terminée.",
+    formation: "Formé à l'École 5.3 · Qualiopi"
   },
 
   about: {
@@ -192,7 +192,7 @@ export const siteConfig = {
     reasons: [
       {
         title: "Formation certifiée Qualiopi",
-        description: "Je me forme à l'École 5.3, organisme certifié Qualiopi par l'État français. Mes compétences sont validées par des critères de qualité rigoureux.",
+        description: "Je me suis formé à l'École 5.3, organisme certifié Qualiopi par l'État français. Ma formation est terminée et mes compétences sont validées par des critères de qualité rigoureux.",
         icon: "Award"
       },
       {
@@ -283,7 +283,7 @@ export const siteConfig = {
 
   seo: {
     title: "Yann Berthelot – Conseiller en Neuro-Nutrition | Bretagne & Visioconférence",
-    description: "Conseiller en Neuro-Nutrition en formation certifiante à l'École 5.3 (Qualiopi). Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs du Vivant. Bretagne & visioconférence. ☎ 06 63 00 41 27",
+    description: "Conseiller en Neuro-Nutrition formé à l'École 5.3 (organisme certifié Qualiopi). Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs du Vivant. Bretagne & visioconférence. ☎ 06 63 00 41 27",
     keywords: [
       "coach neuro-nutrition Bretagne",
       "neuro-nutrition",

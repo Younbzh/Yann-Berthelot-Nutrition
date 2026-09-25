@@ -120,7 +120,7 @@ export default function App() {
             <div>
               <div className="inline-flex items-center gap-2 bg-[#1C3424]/8 text-[#1C3424] px-4 py-2 rounded-full text-xs font-bold uppercase tracking-widest mb-7">
                 <GraduationCap className="w-3.5 h-3.5 text-[#C4813A]" />
-                Formation certifiée École 5.3 · Qualiopi
+                Formé à l'École 5.3 · Certifié Qualiopi
               </div>
 
               <h1 className="text-5xl lg:text-[3.6rem] font-bold text-[#1C3424] leading-[1.1] mb-6">
@@ -166,8 +166,8 @@ export default function App() {
               <div className="relative w-full max-w-md">
                 <div className="absolute -inset-3 bg-[#E8F0EA] rounded-3xl -rotate-2" />
                 <img
-                  src="/1000009306.jpg"
-                  alt="Les 5 Facteurs du Vivant – Méthode Dr Yann Rougier"
+                  src="/carte-visite-recto.jpg"
+                  alt="Carte de visite de Yann Berthelot, conseiller en neuro-nutrition à Loudéac – nutrition, respiration, gestion des émotions, relaxation"
                   className="relative w-full rounded-2xl shadow-2xl"
                 />
                 {/* Badge téléphone */}
@@ -249,7 +249,7 @@ export default function App() {
               <div className="relative w-full max-w-md">
                 <div className="absolute -inset-2 bg-[#1C3424]/6 rounded-3xl -rotate-1" />
                 <img
-                  src="/1000009307.jpg"
+                  src="/carte-visite-yann.jpg"
                   alt="Yann Berthelot – Conseiller en Neuro-Nutrition"
                   className="relative w-full rounded-2xl shadow-lg"
                 />
@@ -606,7 +606,7 @@ export default function App() {
               <h4 className="font-bold text-xs uppercase tracking-widest text-[#C4813A] mb-4">Formation</h4>
               <div className="space-y-1.5 text-sm text-gray-400">
                 <p>Conseiller en Neuro-Nutrition</p>
-                <p>Formation certifiante École 5.3</p>
+                <p>Formé à l'École 5.3</p>
                 <p>Organisme certifié Qualiopi</p>
                 <p>Méthode Dr Yann Rougier</p>
               </div>
