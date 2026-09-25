@@ -41,4 +41,4 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
-Sitemap: https://yann-berthelot-nutrition.vercel.app/sitemap.xml
+Sitemap: https://yann-berthelot-nutrition.com/sitemap.xml
