@@ -118,9 +118,15 @@ export default function App() {
 
             {/* Texte gauche */}
             <div>
-              <div className="inline-flex items-center gap-2 bg-[#1C3424]/8 text-[#1C3424] px-4 py-2 rounded-full text-xs font-bold uppercase tracking-widest mb-7">
-                <GraduationCap className="w-3.5 h-3.5 text-[#C4813A]" />
-                Formé à l'École 5.3 · Certifié Qualiopi
+              <div className="flex flex-wrap items-center gap-2 mb-7">
+                <span className="inline-flex items-center gap-2 bg-[#1C3424]/8 text-[#1C3424] px-4 py-2 rounded-full text-xs font-bold uppercase tracking-widest">
+                  <GraduationCap className="w-3.5 h-3.5 text-[#C4813A]" />
+                  Formé à l'École 5.3 · Certifié Qualiopi
+                </span>
+                <span className="inline-flex items-center gap-2 bg-[#C4813A]/12 text-[#A8702A] px-4 py-2 rounded-full text-xs font-bold uppercase tracking-widest">
+                  <Users className="w-3.5 h-3.5 text-[#C4813A]" />
+                  Spécialisé + de 40 ans
+                </span>
               </div>
 
               <h1 className="text-5xl lg:text-[3.6rem] font-bold text-[#1C3424] leading-[1.1] mb-6">
@@ -130,7 +136,8 @@ export default function App() {
               </h1>
 
               <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-lg">
-                Vous êtes épuisé(e), stressé(e) ou votre poids résiste malgré vos efforts ?
+                <strong className="text-[#1C3424]">Après 40 ans, le corps ne réagit plus comme avant</strong> :
+                l'énergie baisse, le poids résiste, le sommeil se dérègle.
                 Je vous accompagne avec la méthode des{' '}
                 <strong className="text-[#1C3424]">5 Facteurs du Vivant</strong>{' '}
                 pour retrouver un équilibre durable, sans régime frustrant.
@@ -193,7 +200,8 @@ export default function App() {
 
           <div className="text-center mb-14">
             <p className="text-gray-500 text-lg mb-5 max-w-xl mx-auto">
-              Si vous lisez ces lignes, c'est peut-être que quelque chose coince depuis un moment. Vous n'êtes pas seul(e).
+              Si vous lisez ces lignes, c'est peut-être que quelque chose coince depuis un moment.
+              Passé 40 ans, ces signaux deviennent plus fréquents — et vous n'êtes pas seul(e).
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-[#1C3424] mb-3">
               {siteConfig.painPoints.title}
@@ -606,6 +614,7 @@ export default function App() {
               <h4 className="font-bold text-xs uppercase tracking-widest text-[#C4813A] mb-4">Formation</h4>
               <div className="space-y-1.5 text-sm text-gray-400">
                 <p>Conseiller en Neuro-Nutrition</p>
+                <p>Spécialisé + de 40 ans</p>
                 <p>Formé à l'École 5.3</p>
                 <p>Organisme certifié Qualiopi</p>
                 <p>Méthode Dr Yann Rougier</p>

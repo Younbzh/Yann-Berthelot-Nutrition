@@ -1,7 +1,8 @@
 export const siteConfig = {
   businessName: "Yann Berthelot",
   tagline: "Conseiller en Neuro-Nutrition",
-  description: "Conseiller en Neuro-Nutrition formé à l'École 5.3 (organisme certifié Qualiopi). Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs du Vivant.",
+  specialty: "Spécialisé dans l'accompagnement des + de 40 ans",
+  description: "Conseiller en Neuro-Nutrition formé à l'École 5.3 (organisme certifié Qualiopi), spécialisé dans l'accompagnement des personnes de plus de 40 ans. Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs du Vivant.",
 
   contact: {
     phone: "06 63 00 41 27",
@@ -72,7 +73,7 @@ export const siteConfig = {
 
   hero: {
     title: "Retrouvez l'énergie, la légèreté et le calme que vous méritez",
-    subtitle: "Vous vous sentez épuisé(e), stressé(e) ou votre poids résiste malgré vos efforts ? Je vous accompagne avec la méthode des 5 Facteurs du Vivant pour retrouver un équilibre durable, sans régime frustrant.",
+    subtitle: "Après 40 ans, le corps ne réagit plus comme avant : l'énergie baisse, le poids résiste, le sommeil se dérègle. Je vous accompagne avec la méthode des 5 Facteurs du Vivant pour retrouver un équilibre durable, sans régime frustrant.",
     cta: {
       primary: "Appel découverte gratuit",
       secondary: "Découvrir la méthode"
@@ -88,7 +89,7 @@ export const siteConfig = {
     sectionLabel: "Qui je suis",
     title: "Yann Berthelot",
     subtitle: "Conseiller en Neuro-Nutrition",
-    intro: "Je m'appelle Yann Berthelot. Passionné par le lien entre le cerveau, les émotions et l'alimentation, je me suis formé à la méthode des 5 Facteurs du Vivant du Dr Yann Rougier au sein de l'École 5.3, organisme certifié Qualiopi, reconnu par l'État. Ma formation certifiante est aujourd'hui terminée.",
+    intro: "Je m'appelle Yann Berthelot. Passionné par le lien entre le cerveau, les émotions et l'alimentation, je me suis formé à la méthode des 5 Facteurs du Vivant du Dr Yann Rougier au sein de l'École 5.3, organisme certifié Qualiopi, reconnu par l'État. Ma formation certifiante est aujourd'hui terminée. J'accompagne plus particulièrement les personnes de plus de 40 ans, à l'âge où le corps change et où les anciennes recettes ne fonctionnent plus.",
     formation: "Formé à l'École 5.3 · Qualiopi"
   },
 
@@ -188,7 +189,7 @@ export const siteConfig = {
 
   whyChooseUs: {
     title: "Pourquoi me faire confiance ?",
-    subtitle: "Un accompagnement sérieux, humain et fondé sur des bases scientifiques solides",
+    subtitle: "Un accompagnement sérieux, humain et fondé sur des bases scientifiques solides, pensé pour les plus de 40 ans",
     reasons: [
       {
         title: "Formation certifiée Qualiopi",
@@ -283,11 +284,14 @@ export const siteConfig = {
 
   seo: {
     title: "Yann Berthelot – Conseiller en Neuro-Nutrition | Bretagne & Visioconférence",
-    description: "Conseiller en Neuro-Nutrition formé à l'École 5.3 (organisme certifié Qualiopi). Accompagnement personnalisé pour retrouver énergie, équilibre et bien-être grâce à la méthode des 5 Facteurs du Vivant. Bretagne & visioconférence. ☎ 06 63 00 41 27",
+    description: "Conseiller en Neuro-Nutrition formé à l'École 5.3 (organisme certifié Qualiopi), spécialisé dans l'accompagnement des + de 40 ans. Retrouvez énergie, équilibre et bien-être avec la méthode des 5 Facteurs du Vivant. Bretagne & visioconférence. ☎ 06 63 00 41 27",
     keywords: [
       "coach neuro-nutrition Bretagne",
       "neuro-nutrition",
       "5 facteurs du vivant",
+      "neuro-nutrition après 40 ans",
+      "perte de poids après 40 ans",
+      "fatigue après 40 ans",
       "coach nutrition",
       "fatigue chronique alimentation",
       "perte de poids naturelle",
