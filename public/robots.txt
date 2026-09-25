@@ -1,10 +1,10 @@
-# robots.txt — Yann Berthelot, Conseiller en Neuro-Nutrition
+# robots.txt : Yann Berthelot, Conseiller en Neuro-Nutrition
 
 # Moteurs de recherche classiques
 User-agent: *
 Allow: /
 
-# Crawlers IA génératifs — explicitement autorisés (GEO)
+# Crawlers IA génératifs : explicitement autorisés (GEO)
 User-agent: GPTBot
 Allow: /
 

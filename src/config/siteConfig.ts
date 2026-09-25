@@ -26,7 +26,7 @@ export const siteConfig = {
   hours: {
     message: "Du lundi au vendredi : 9h - 19h",
     details: [
-      { day: "Lundi – Vendredi", hours: "9h00 – 19h00" },
+      { day: "Lundi au vendredi", hours: "9h00 à 19h00" },
       { day: "Samedi", hours: "Sur rendez-vous" },
       { day: "Dimanche", hours: "Fermé" }
     ]
@@ -283,7 +283,7 @@ export const siteConfig = {
   },
 
   seo: {
-    title: "Yann Berthelot – Conseiller en Neuro-Nutrition | Bretagne & Visioconférence",
+    title: "Yann Berthelot, Conseiller en Neuro-Nutrition | Bretagne & Visioconférence",
     description: "Conseiller en Neuro-Nutrition formé à l'École 5.3 (organisme certifié Qualiopi), spécialisé dans l'accompagnement des + de 40 ans. Retrouvez énergie, équilibre et bien-être avec la méthode des 5 Facteurs du Vivant. Bretagne & visioconférence. ☎ 06 63 00 41 27",
     keywords: [
       "coach neuro-nutrition Bretagne",

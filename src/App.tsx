@@ -174,7 +174,7 @@ export default function App() {
                 <div className="absolute -inset-3 bg-[#E8F0EA] rounded-3xl -rotate-2" />
                 <img
                   src="/carte-visite-recto.jpg"
-                  alt="Carte de visite de Yann Berthelot, conseiller en neuro-nutrition à Loudéac – nutrition, respiration, gestion des émotions, relaxation"
+                  alt="Carte de visite de Yann Berthelot, conseiller en neuro-nutrition à Loudéac : nutrition, respiration, gestion des émotions, relaxation"
                   className="relative w-full rounded-2xl shadow-2xl"
                 />
                 {/* Badge téléphone */}
@@ -201,7 +201,7 @@ export default function App() {
           <div className="text-center mb-14">
             <p className="text-gray-500 text-lg mb-5 max-w-xl mx-auto">
               Si vous lisez ces lignes, c'est peut-être que quelque chose coince depuis un moment.
-              Passé 40 ans, ces signaux deviennent plus fréquents — et vous n'êtes pas seul(e).
+              Passé 40 ans, ces signaux deviennent plus fréquents, et vous n'êtes pas seul(e).
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-[#1C3424] mb-3">
               {siteConfig.painPoints.title}
@@ -258,7 +258,7 @@ export default function App() {
                 <div className="absolute -inset-2 bg-[#1C3424]/6 rounded-3xl -rotate-1" />
                 <img
                   src="/carte-visite-yann.jpg"
-                  alt="Yann Berthelot – Conseiller en Neuro-Nutrition"
+                  alt="Yann Berthelot, Conseiller en Neuro-Nutrition"
                   className="relative w-full rounded-2xl shadow-lg"
                 />
                 <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 flex items-center gap-3 bg-white rounded-2xl px-5 py-3 shadow-xl border border-[#E8E0D4] whitespace-nowrap">
@@ -623,7 +623,7 @@ export default function App() {
           </div>
 
           <div className="border-t border-white/10 pt-6 text-center text-xs text-gray-600">
-            © {new Date().getFullYear()} {siteConfig.businessName} – Tous droits réservés
+            © {new Date().getFullYear()} {siteConfig.businessName} · Tous droits réservés
           </div>
         </div>
       </footer>
