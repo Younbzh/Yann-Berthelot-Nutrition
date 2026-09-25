@@ -252,15 +252,19 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
 
-            {/* Photo */}
+            {/* Logo de l'école */}
             <div className="flex justify-center lg:justify-start order-2 lg:order-1">
               <div className="relative w-full max-w-md">
                 <div className="absolute -inset-2 bg-[#1C3424]/6 rounded-3xl -rotate-1" />
-                <img
-                  src="/carte-visite-yann.jpg"
-                  alt="Yann Berthelot, Conseiller en Neuro-Nutrition"
-                  className="relative w-full rounded-2xl shadow-lg"
-                />
+                <div className="relative bg-white rounded-2xl shadow-lg border border-[#E8E0D4] py-14 px-8 flex items-center justify-center">
+                  <img
+                    src="/5.3school.png"
+                    alt="Logo de l'École 5.3, école de nutrition, sport et santé, organisme certifié Qualiopi"
+                    width={500}
+                    height={500}
+                    className="w-52 h-52 sm:w-56 sm:h-56 object-contain"
+                  />
+                </div>
                 <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 flex items-center gap-3 bg-white rounded-2xl px-5 py-3 shadow-xl border border-[#E8E0D4] whitespace-nowrap">
                   <div className="w-8 h-8 bg-[#1C3424] rounded-lg flex items-center justify-center flex-shrink-0">
                     <GraduationCap className="w-4 h-4 text-[#C4813A]" />
