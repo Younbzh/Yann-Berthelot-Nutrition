@@ -56,3 +56,13 @@ body[data-theme="light"] .glass {
 body[data-theme="light"] p {
   color: #333;
 }
+
+/*
+  Vidéo d'accueil : masquée quand le système demande moins de mouvement.
+  Une boucle de quatorze secondes derrière le premier écran est exactement ce
+  que ce réglage existe pour éteindre ; l'affiche reprend alors sa place et la
+  page ne perd rien.
+*/
+@media (prefers-reduced-motion: reduce) {
+  .video-hero { display: none; }
+}

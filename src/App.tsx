@@ -172,11 +172,36 @@ export default function App() {
             <div className="flex justify-center lg:justify-end">
               <div className="relative w-full max-w-md">
                 <div className="absolute -inset-3 bg-[#E8F0EA] rounded-3xl -rotate-2" />
-                <img
-                  src="/carte-visite-recto.jpg"
-                  alt="Carte de visite de Yann Berthelot, conseiller en neuro-nutrition à Loudéac : nutrition, respiration, gestion des émotions, relaxation"
-                  className="relative w-full rounded-2xl shadow-2xl"
-                />
+                {/*
+                  La carte de visite a cédé la place à une image de l'état
+                  qu'on vient chercher ici. Un héros ne montre pas la méthode,
+                  il montre le résultat : quelqu'un qui a retrouvé son énergie.
+
+                  L'affiche est posée dessous et reste visible tant que la
+                  vidéo charge, et à sa place entière si le visiteur a demandé
+                  moins de mouvement (voir index.css). Muette et aria-hidden :
+                  elle n'apporte aucune information, tout est dans le texte.
+                */}
+                <div className="relative overflow-hidden rounded-2xl shadow-2xl aspect-[3/4]">
+                  <img
+                    src="/hero-yann.jpg"
+                    alt=""
+                    aria-hidden="true"
+                    className="absolute inset-0 h-full w-full object-cover"
+                  />
+                  <video
+                    src="/hero-yann.mp4"
+                    poster="/hero-yann.jpg"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="metadata"
+                    aria-hidden="true"
+                    tabIndex={-1}
+                    className="video-hero absolute inset-0 h-full w-full object-cover"
+                  />
+                </div>
                 {/* Badge téléphone */}
                 <a
                   href={`tel:${siteConfig.contact.phone.replace(/\s/g, '')}`}
