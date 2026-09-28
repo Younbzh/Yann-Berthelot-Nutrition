@@ -4,7 +4,7 @@ import {
   Award, CheckCircle, Users, MapPin,
   Phone, MessageCircle, Clock, ChevronDown, Menu, X, Check,
   GraduationCap, Leaf, BatteryLow, Scale, UtensilsCrossed, Coffee, Flame, Brain,
-  ArrowRight
+  ArrowRight, Instagram
 } from 'lucide-react';
 import { siteConfig } from './config/siteConfig';
 
@@ -606,6 +606,10 @@ export default function App() {
                 <a href={siteConfig.contact.whatsapp} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
                   <MessageCircle className="w-3.5 h-3.5 text-[#C4813A]" />
                   WhatsApp
+                </a>
+                <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
+                  <Instagram className="w-3.5 h-3.5 text-[#C4813A]" />
+                  Instagram
                 </a>
                 <p className="flex items-center gap-2">
                   <MapPin className="w-3.5 h-3.5 text-[#C4813A]" />

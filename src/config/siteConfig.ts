@@ -19,7 +19,7 @@ export const siteConfig = {
 
   social: {
     facebook: "",
-    instagram: "",
+    instagram: "https://www.instagram.com/yann.b.nutrition/",
     linkedin: ""
   },
 
