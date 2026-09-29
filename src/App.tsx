@@ -277,17 +277,25 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
 
-            {/* Logo de l'école */}
+            {/*
+              Le portrait a remplacé le logo de l'École 5.3.
+
+              La section s'appelle « Qui je suis » : on y vient chercher une
+              personne, pas une marque. Et la preuve n'est pas perdue — le
+              diplôme encadré est visible au mur derrière lui, et le badge
+              ci-dessous nomme la formation en toutes lettres.
+            */}
             <div className="flex justify-center lg:justify-start order-2 lg:order-1">
               <div className="relative w-full max-w-md">
                 <div className="absolute -inset-2 bg-[#1C3424]/6 rounded-3xl -rotate-1" />
-                <div className="relative bg-white rounded-2xl shadow-lg border border-[#E8E0D4] py-14 px-8 flex items-center justify-center">
+                <div className="relative overflow-hidden rounded-2xl shadow-lg border border-[#E8E0D4] aspect-[3/4]">
                   <img
-                    src="/5.3school.png"
-                    alt="Logo de l'École 5.3, école de nutrition, sport et santé, organisme certifié Qualiopi"
-                    width={500}
-                    height={500}
-                    className="w-52 h-52 sm:w-56 sm:h-56 object-contain"
+                    src="/yann-berthelot.jpg"
+                    alt="Yann Berthelot, conseiller en neuro-nutrition, à son bureau à Loudéac"
+                    width={768}
+                    height={1024}
+                    loading="lazy"
+                    className="absolute inset-0 h-full w-full object-cover"
                   />
                 </div>
                 <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 flex items-center gap-3 bg-white rounded-2xl px-5 py-3 shadow-xl border border-[#E8E0D4] whitespace-nowrap">
