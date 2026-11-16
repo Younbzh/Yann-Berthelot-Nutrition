@@ -723,6 +723,14 @@ export default function App() {
 
           <div className="border-t border-white/10 pt-6 text-center text-xs text-gray-600">
             © {new Date().getFullYear()} {siteConfig.businessName} · Tous droits réservés
+            <span className="block sm:inline mt-2 sm:mt-0">
+              <span className="hidden sm:inline"> · </span>
+              <a href="/mentions-legales.html" className="hover:text-white transition-colors">Mentions légales</a>
+              {' · '}
+              <a href="/cgv.html" className="hover:text-white transition-colors">CGV</a>
+              {' · '}
+              <a href="/confidentialite.html" className="hover:text-white transition-colors">Confidentialité</a>
+            </span>
           </div>
         </div>
       </footer>
