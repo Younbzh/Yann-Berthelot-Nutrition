@@ -19,7 +19,7 @@ const infos = {
   adresse: '', // rue ; la commune est connue
   commune: '22600 Loudéac',
   telephone: '06 63 00 41 27',
-  email: '',
+  email: 'yann.b.nutrition@gmail.com', // celle de sa carte de visite
   tva: '', // ex. « TVA non applicable, article 293 B du code général des impôts »
   paiement: '', // ex. « chaque mois, par virement, au début de chaque mois d'accompagnement »
   apresEngagement: '', // ce qui se passe après les 3 mois, et le préavis pour arrêter
