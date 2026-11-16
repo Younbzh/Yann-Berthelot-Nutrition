@@ -187,6 +187,35 @@ export const siteConfig = {
     ]
   },
 
+  // Le contenu et le tarif sont ceux que Yann a envoyés le 16 novembre 2026,
+  // passés au vouvoiement du reste du site.
+  accompagnement: {
+    title: "Ce que comprend l'accompagnement",
+    subtitle: "Un suivi au plus près de votre quotidien, pour que les changements tiennent dans la durée",
+    inclus: [
+      {
+        title: "Un appel visio chaque semaine",
+        description: "15 à 20 minutes pour faire le point sur la semaine écoulée et ajuster la suite.",
+        icon: "Video"
+      },
+      {
+        title: "WhatsApp chaque jour",
+        description: "Une question, un doute, une victoire : vous m'écrivez quand vous voulez, je vous réponds dans la journée.",
+        icon: "MessageCircle"
+      },
+      {
+        title: "Un accompagnement sur mesure",
+        description: "Construit autour de votre situation, avec un but : votre autonomie.",
+        icon: "Compass"
+      }
+    ],
+    prix: "150 €",
+    periode: "par mois",
+    parJour: "soit 5 € par jour",
+    engagement: "Engagement de 3 mois minimum.",
+    cta: "Commencez par un appel découverte gratuit et sans engagement."
+  },
+
   whyChooseUs: {
     title: "Pourquoi me faire confiance ?",
     subtitle: "Un accompagnement sérieux, humain et fondé sur des bases scientifiques solides, pensé pour les plus de 40 ans",
@@ -255,7 +284,11 @@ export const siteConfig = {
       },
       {
         question: "Combien de temps dure un accompagnement ?",
-        answer: "Chaque accompagnement est personnalisé. Les premiers changements se font souvent sentir dès les premières semaines, mais un programme complet s'étale généralement sur 3 à 6 mois pour des résultats durables. Nous définissons ensemble le rythme qui vous convient."
+        answer: "L'accompagnement demande un engagement de 3 mois minimum. Les premiers changements se font souvent sentir dès les premières semaines, et un programme complet s'étale généralement sur 3 à 6 mois pour des résultats durables. Nous définissons ensemble le rythme qui vous convient."
+      },
+      {
+        question: "Combien coûte l'accompagnement ?",
+        answer: "150 € par mois, soit 5 € par jour, avec un engagement de 3 mois minimum. Cela comprend un appel visio de 15 à 20 minutes chaque semaine et un suivi WhatsApp quotidien, avec une réponse dans la journée. L'appel découverte, lui, est gratuit et sans engagement."
       },
       {
         question: "Les séances sont-elles remboursées ?",

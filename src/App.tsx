@@ -4,7 +4,7 @@ import {
   Award, CheckCircle, Users, MapPin,
   Phone, MessageCircle, Clock, ChevronDown, Menu, X, Check,
   GraduationCap, Leaf, BatteryLow, Scale, UtensilsCrossed, Coffee, Flame, Brain,
-  ArrowRight, Instagram
+  ArrowRight, Instagram, Video, Compass
 } from 'lucide-react';
 import { siteConfig } from './config/siteConfig';
 
@@ -24,6 +24,13 @@ const PainIcon = ({ name }: { name: string }) => {
   if (name === 'Coffee') return <Coffee className="w-5 h-5" />;
   if (name === 'Flame') return <Flame className="w-5 h-5" />;
   if (name === 'Brain') return <Brain className="w-5 h-5" />;
+  return null;
+};
+
+const InclusIcon = ({ name }: { name: string }) => {
+  if (name === 'Video') return <Video className="w-5 h-5 text-[#C4813A]" />;
+  if (name === 'MessageCircle') return <MessageCircle className="w-5 h-5 text-[#C4813A]" />;
+  if (name === 'Compass') return <Compass className="w-5 h-5 text-[#C4813A]" />;
   return null;
 };
 
@@ -79,6 +86,7 @@ export default function App() {
               <button onClick={() => go('qui-je-suis')} className="text-sm text-gray-600 hover:text-[#1C3424] font-medium transition-colors">Qui je suis</button>
               <button onClick={() => go('about')} className="text-sm text-gray-600 hover:text-[#1C3424] font-medium transition-colors">Mon approche</button>
               <button onClick={() => go('services')} className="text-sm text-gray-600 hover:text-[#1C3424] font-medium transition-colors">5 Facteurs du Vivant</button>
+              <button onClick={() => go('accompagnement')} className="text-sm text-gray-600 hover:text-[#1C3424] font-medium transition-colors">Accompagnement & tarif</button>
               <button onClick={() => go('contact')} className="text-sm text-gray-600 hover:text-[#1C3424] font-medium transition-colors">Prendre rendez-vous</button>
               <button
                 onClick={() => go('contact')}
@@ -98,6 +106,7 @@ export default function App() {
               <button onClick={() => go('qui-je-suis')} className="text-left py-2 px-2 text-gray-700 font-medium">Qui je suis</button>
               <button onClick={() => go('about')} className="text-left py-2 px-2 text-gray-700 font-medium">Mon approche</button>
               <button onClick={() => go('services')} className="text-left py-2 px-2 text-gray-700 font-medium">5 Facteurs du Vivant</button>
+              <button onClick={() => go('accompagnement')} className="text-left py-2 px-2 text-gray-700 font-medium">Accompagnement & tarif</button>
               <button onClick={() => go('contact')} className="text-left py-2 px-2 text-gray-700 font-medium">Prendre rendez-vous</button>
               <button onClick={() => go('contact')} className="mt-1 bg-[#C4813A] text-white px-5 py-3 rounded-full font-bold text-sm">
                 Appel découverte gratuit
@@ -476,6 +485,55 @@ export default function App() {
                 <p className="text-gray-600 text-sm leading-relaxed">{reason.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Accompagnement & tarif ──────────────────────── */}
+      <section id="accompagnement" className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+
+          <div className="text-center mb-14">
+            <p className="text-xs font-bold uppercase tracking-widest text-[#C4813A] mb-3">L'accompagnement</p>
+            <h2 className="text-4xl md:text-5xl font-bold text-[#1C3424] mb-4">
+              {siteConfig.accompagnement.title}
+            </h2>
+            <p className="text-lg text-gray-500 max-w-2xl mx-auto">
+              {siteConfig.accompagnement.subtitle}
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-[1fr_380px] gap-6 items-stretch">
+            <div className="grid md:grid-cols-3 lg:grid-cols-1 gap-4">
+              {siteConfig.accompagnement.inclus.map((item, i) => (
+                <div key={i} className="flex gap-4 items-start p-6 rounded-2xl border border-gray-100 bg-white">
+                  <div className="w-10 h-10 rounded-xl bg-[#1C3424] flex items-center justify-center flex-shrink-0">
+                    <InclusIcon name={item.icon} />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-[#1C3424] text-lg mb-1">{item.title}</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="rounded-2xl bg-[#1C3424] text-white p-8 flex flex-col justify-center text-center">
+              <p className="text-xs font-bold uppercase tracking-widest text-[#C4813A] mb-4">Le tarif</p>
+              <p className="leading-none mb-2">
+                <span className="text-6xl font-bold">{siteConfig.accompagnement.prix}</span>
+                <span className="text-white/60 text-lg ml-2">{siteConfig.accompagnement.periode}</span>
+              </p>
+              <p className="text-[#C4813A] font-bold mb-6">{siteConfig.accompagnement.parJour}</p>
+              <p className="text-white/70 text-sm mb-6">{siteConfig.accompagnement.engagement}</p>
+              <p className="text-white/90 text-sm leading-relaxed mb-6">{siteConfig.accompagnement.cta}</p>
+              <button
+                onClick={() => go('contact')}
+                className="inline-flex items-center justify-center gap-2 bg-[#C4813A] text-white px-6 py-3.5 rounded-full font-bold hover:bg-[#A8702A] transition-all shadow-lg"
+              >
+                Appel découverte gratuit <ArrowRight className="w-4 h-4" />
+              </button>
+            </div>
           </div>
         </div>
       </section>
